@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROCrates.Net", "ROCrates.Net\ROCrates.Net.csproj", "{F2E38520-C044-4D6D-9910-B039DEDAEE97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROCrates.Net.Tests", "ROCrates.Net.Tests\ROCrates.Net.Tests.csproj", "{E58ACFDF-E03B-40B5-8042-0CC2940F6BD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2E38520-C044-4D6D-9910-B039DEDAEE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E38520-C044-4D6D-9910-B039DEDAEE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E38520-C044-4D6D-9910-B039DEDAEE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E38520-C044-4D6D-9910-B039DEDAEE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58ACFDF-E03B-40B5-8042-0CC2940F6BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58ACFDF-E03B-40B5-8042-0CC2940F6BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58ACFDF-E03B-40B5-8042-0CC2940F6BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58ACFDF-E03B-40B5-8042-0CC2940F6BD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
