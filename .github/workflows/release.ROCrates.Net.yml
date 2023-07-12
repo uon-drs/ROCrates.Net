@@ -1,0 +1,18 @@
+name: Release ROCrates.Net to Nuget
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish NuGet
+        uses: brandedoutcast/publish-nuget@v2.5.5
+        with: 
+          PROJECT_FILE_PATH: ROCrates.Net/ROCrates.Net.csproj
+          TAG_COMMIT: false
+          NUGET_KEY: ${{secrets.NUGET_PUBLISH_KEY}}
+
