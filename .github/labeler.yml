@@ -1,0 +1,7 @@
+# label affected logical areas of the repo
+"Area: CI":
+  - .github/**/*
+"Area: Library":
+  - ROCrates.Net/**/*
+"Area: Docs":
+  - docs/**/*
