@@ -44,7 +44,11 @@
       }
     ],
     "output": "_site",
-    "globalMetadataFiles": [],
+    "globalMetadata": {
+      "_appTitle": "ROCrates.Net",
+      "_appName": "ROCrates.Net",
+      "_enableSearch": true
+    },
     "fileMetadataFiles": [],
     "template": [
       "default",
