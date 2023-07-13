@@ -1,0 +1,423 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/ROCrates.Net/ROCrates.Net/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Converters.EntityConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Converters.EntityConverter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Converters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Exceptions.CrateReadException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Exceptions.CrateReadException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Exceptions.MetadataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Exceptions.MetadataException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.ComputationalWorkflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.ComputationalWorkflow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.ComputerLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.ComputerLanguage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.ContextEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.ContextEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.CreativeWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.CreativeWork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.DataEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.DataEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.Dataset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.Dataset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.Entity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.File.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.FileOrDir.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.FileOrDir.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.Metadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.Part.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.Part.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.Person.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.Person.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.Preview.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.Preview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.RootDataset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.RootDataset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.SoftwareApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.SoftwareApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.TestDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.TestDefinition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.TestInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.TestInstance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.TestService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.TestService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.TestSuite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.TestSuite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.Workflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.Workflow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.WorkflowDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.WorkflowDescription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.ROCrate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.ROCrate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.TestingExtraTerms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.TestingExtraTerms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ROCrates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ROCrates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/tutorials/converting.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/tutorials/converting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/tutorials/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/tutorials/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/tutorials/initialising.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/tutorials/initialising.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/tutorials/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/tutorials/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/tutorials/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

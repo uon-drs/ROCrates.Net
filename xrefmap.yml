@@ -1,0 +1,2232 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ROCrates
+  name: ROCrates
+  href: api/ROCrates.html
+  commentId: N:ROCrates
+  fullName: ROCrates
+  nameWithType: ROCrates
+- uid: ROCrates.Converters
+  name: ROCrates.Converters
+  href: api/ROCrates.Converters.html
+  commentId: N:ROCrates.Converters
+  fullName: ROCrates.Converters
+  nameWithType: ROCrates.Converters
+- uid: ROCrates.Converters.EntityConverter`1
+  name: EntityConverter<T>
+  href: api/ROCrates.Converters.EntityConverter-1.html
+  commentId: T:ROCrates.Converters.EntityConverter`1
+  name.vb: EntityConverter(Of T)
+  fullName: ROCrates.Converters.EntityConverter<T>
+  fullName.vb: ROCrates.Converters.EntityConverter(Of T)
+  nameWithType: EntityConverter<T>
+  nameWithType.vb: EntityConverter(Of T)
+- uid: ROCrates.Converters.EntityConverter`1.#ctor
+  name: EntityConverter()
+  href: api/ROCrates.Converters.EntityConverter-1.html#ROCrates_Converters_EntityConverter_1__ctor
+  commentId: M:ROCrates.Converters.EntityConverter`1.#ctor
+  name.vb: New()
+  fullName: ROCrates.Converters.EntityConverter<T>.EntityConverter()
+  fullName.vb: ROCrates.Converters.EntityConverter(Of T).New()
+  nameWithType: EntityConverter<T>.EntityConverter()
+  nameWithType.vb: EntityConverter(Of T).New()
+- uid: ROCrates.Converters.EntityConverter`1.#ctor*
+  name: EntityConverter
+  href: api/ROCrates.Converters.EntityConverter-1.html#ROCrates_Converters_EntityConverter_1__ctor_
+  commentId: Overload:ROCrates.Converters.EntityConverter`1.#ctor
+  name.vb: New
+  fullName: ROCrates.Converters.EntityConverter<T>.EntityConverter
+  fullName.vb: ROCrates.Converters.EntityConverter(Of T).New
+  nameWithType: EntityConverter<T>.EntityConverter
+  nameWithType.vb: EntityConverter(Of T).New
+- uid: ROCrates.Converters.EntityConverter`1.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/ROCrates.Converters.EntityConverter-1.html#ROCrates_Converters_EntityConverter_1_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:ROCrates.Converters.EntityConverter`1.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: ROCrates.Converters.EntityConverter<T>.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: ROCrates.Converters.EntityConverter(Of T).Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: EntityConverter<T>.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: EntityConverter(Of T).Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: ROCrates.Converters.EntityConverter`1.Read*
+  name: Read
+  href: api/ROCrates.Converters.EntityConverter-1.html#ROCrates_Converters_EntityConverter_1_Read_
+  commentId: Overload:ROCrates.Converters.EntityConverter`1.Read
+  fullName: ROCrates.Converters.EntityConverter<T>.Read
+  fullName.vb: ROCrates.Converters.EntityConverter(Of T).Read
+  nameWithType: EntityConverter<T>.Read
+  nameWithType.vb: EntityConverter(Of T).Read
+- uid: ROCrates.Converters.EntityConverter`1.Write(System.Text.Json.Utf8JsonWriter,`0,System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, T, JsonSerializerOptions)
+  href: api/ROCrates.Converters.EntityConverter-1.html#ROCrates_Converters_EntityConverter_1_Write_System_Text_Json_Utf8JsonWriter__0_System_Text_Json_JsonSerializerOptions_
+  commentId: M:ROCrates.Converters.EntityConverter`1.Write(System.Text.Json.Utf8JsonWriter,`0,System.Text.Json.JsonSerializerOptions)
+  fullName: ROCrates.Converters.EntityConverter<T>.Write(System.Text.Json.Utf8JsonWriter, T, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: ROCrates.Converters.EntityConverter(Of T).Write(System.Text.Json.Utf8JsonWriter, T, System.Text.Json.JsonSerializerOptions)
+  nameWithType: EntityConverter<T>.Write(Utf8JsonWriter, T, JsonSerializerOptions)
+  nameWithType.vb: EntityConverter(Of T).Write(Utf8JsonWriter, T, JsonSerializerOptions)
+- uid: ROCrates.Converters.EntityConverter`1.Write*
+  name: Write
+  href: api/ROCrates.Converters.EntityConverter-1.html#ROCrates_Converters_EntityConverter_1_Write_
+  commentId: Overload:ROCrates.Converters.EntityConverter`1.Write
+  fullName: ROCrates.Converters.EntityConverter<T>.Write
+  fullName.vb: ROCrates.Converters.EntityConverter(Of T).Write
+  nameWithType: EntityConverter<T>.Write
+  nameWithType.vb: EntityConverter(Of T).Write
+- uid: ROCrates.Exceptions
+  name: ROCrates.Exceptions
+  href: api/ROCrates.Exceptions.html
+  commentId: N:ROCrates.Exceptions
+  fullName: ROCrates.Exceptions
+  nameWithType: ROCrates.Exceptions
+- uid: ROCrates.Exceptions.CrateReadException
+  name: CrateReadException
+  href: api/ROCrates.Exceptions.CrateReadException.html
+  commentId: T:ROCrates.Exceptions.CrateReadException
+  fullName: ROCrates.Exceptions.CrateReadException
+  nameWithType: CrateReadException
+- uid: ROCrates.Exceptions.CrateReadException.#ctor
+  name: CrateReadException()
+  href: api/ROCrates.Exceptions.CrateReadException.html#ROCrates_Exceptions_CrateReadException__ctor
+  commentId: M:ROCrates.Exceptions.CrateReadException.#ctor
+  name.vb: New()
+  fullName: ROCrates.Exceptions.CrateReadException.CrateReadException()
+  fullName.vb: ROCrates.Exceptions.CrateReadException.New()
+  nameWithType: CrateReadException.CrateReadException()
+  nameWithType.vb: CrateReadException.New()
+- uid: ROCrates.Exceptions.CrateReadException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: CrateReadException(SerializationInfo, StreamingContext)
+  href: api/ROCrates.Exceptions.CrateReadException.html#ROCrates_Exceptions_CrateReadException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:ROCrates.Exceptions.CrateReadException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+  fullName: ROCrates.Exceptions.CrateReadException.CrateReadException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  fullName.vb: ROCrates.Exceptions.CrateReadException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: CrateReadException.CrateReadException(SerializationInfo, StreamingContext)
+  nameWithType.vb: CrateReadException.New(SerializationInfo, StreamingContext)
+- uid: ROCrates.Exceptions.CrateReadException.#ctor(System.String,System.Exception)
+  name: CrateReadException(string?, Exception?)
+  href: api/ROCrates.Exceptions.CrateReadException.html#ROCrates_Exceptions_CrateReadException__ctor_System_String_System_Exception_
+  commentId: M:ROCrates.Exceptions.CrateReadException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: ROCrates.Exceptions.CrateReadException.CrateReadException(string?, System.Exception?)
+  fullName.vb: ROCrates.Exceptions.CrateReadException.New(String, System.Exception)
+  nameWithType: CrateReadException.CrateReadException(string?, Exception?)
+  nameWithType.vb: CrateReadException.New(String, Exception)
+- uid: ROCrates.Exceptions.CrateReadException.#ctor(System.String)
+  name: CrateReadException(string?)
+  href: api/ROCrates.Exceptions.CrateReadException.html#ROCrates_Exceptions_CrateReadException__ctor_System_String_
+  commentId: M:ROCrates.Exceptions.CrateReadException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ROCrates.Exceptions.CrateReadException.CrateReadException(string?)
+  fullName.vb: ROCrates.Exceptions.CrateReadException.New(String)
+  nameWithType: CrateReadException.CrateReadException(string?)
+  nameWithType.vb: CrateReadException.New(String)
+- uid: ROCrates.Exceptions.CrateReadException.#ctor*
+  name: CrateReadException
+  href: api/ROCrates.Exceptions.CrateReadException.html#ROCrates_Exceptions_CrateReadException__ctor_
+  commentId: Overload:ROCrates.Exceptions.CrateReadException.#ctor
+  name.vb: New
+  fullName: ROCrates.Exceptions.CrateReadException.CrateReadException
+  fullName.vb: ROCrates.Exceptions.CrateReadException.New
+  nameWithType: CrateReadException.CrateReadException
+  nameWithType.vb: CrateReadException.New
+- uid: ROCrates.Exceptions.MetadataException
+  name: MetadataException
+  href: api/ROCrates.Exceptions.MetadataException.html
+  commentId: T:ROCrates.Exceptions.MetadataException
+  fullName: ROCrates.Exceptions.MetadataException
+  nameWithType: MetadataException
+- uid: ROCrates.Exceptions.MetadataException.#ctor
+  name: MetadataException()
+  href: api/ROCrates.Exceptions.MetadataException.html#ROCrates_Exceptions_MetadataException__ctor
+  commentId: M:ROCrates.Exceptions.MetadataException.#ctor
+  name.vb: New()
+  fullName: ROCrates.Exceptions.MetadataException.MetadataException()
+  fullName.vb: ROCrates.Exceptions.MetadataException.New()
+  nameWithType: MetadataException.MetadataException()
+  nameWithType.vb: MetadataException.New()
+- uid: ROCrates.Exceptions.MetadataException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: MetadataException(SerializationInfo, StreamingContext)
+  href: api/ROCrates.Exceptions.MetadataException.html#ROCrates_Exceptions_MetadataException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:ROCrates.Exceptions.MetadataException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+  fullName: ROCrates.Exceptions.MetadataException.MetadataException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  fullName.vb: ROCrates.Exceptions.MetadataException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: MetadataException.MetadataException(SerializationInfo, StreamingContext)
+  nameWithType.vb: MetadataException.New(SerializationInfo, StreamingContext)
+- uid: ROCrates.Exceptions.MetadataException.#ctor(System.String,System.Exception)
+  name: MetadataException(string?, Exception?)
+  href: api/ROCrates.Exceptions.MetadataException.html#ROCrates_Exceptions_MetadataException__ctor_System_String_System_Exception_
+  commentId: M:ROCrates.Exceptions.MetadataException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: ROCrates.Exceptions.MetadataException.MetadataException(string?, System.Exception?)
+  fullName.vb: ROCrates.Exceptions.MetadataException.New(String, System.Exception)
+  nameWithType: MetadataException.MetadataException(string?, Exception?)
+  nameWithType.vb: MetadataException.New(String, Exception)
+- uid: ROCrates.Exceptions.MetadataException.#ctor(System.String)
+  name: MetadataException(string?)
+  href: api/ROCrates.Exceptions.MetadataException.html#ROCrates_Exceptions_MetadataException__ctor_System_String_
+  commentId: M:ROCrates.Exceptions.MetadataException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ROCrates.Exceptions.MetadataException.MetadataException(string?)
+  fullName.vb: ROCrates.Exceptions.MetadataException.New(String)
+  nameWithType: MetadataException.MetadataException(string?)
+  nameWithType.vb: MetadataException.New(String)
+- uid: ROCrates.Exceptions.MetadataException.#ctor*
+  name: MetadataException
+  href: api/ROCrates.Exceptions.MetadataException.html#ROCrates_Exceptions_MetadataException__ctor_
+  commentId: Overload:ROCrates.Exceptions.MetadataException.#ctor
+  name.vb: New
+  fullName: ROCrates.Exceptions.MetadataException.MetadataException
+  fullName.vb: ROCrates.Exceptions.MetadataException.New
+  nameWithType: MetadataException.MetadataException
+  nameWithType.vb: MetadataException.New
+- uid: ROCrates.Models
+  name: ROCrates.Models
+  href: api/ROCrates.Models.html
+  commentId: N:ROCrates.Models
+  fullName: ROCrates.Models
+  nameWithType: ROCrates.Models
+- uid: ROCrates.Models.ComputationalWorkflow
+  name: ComputationalWorkflow
+  href: api/ROCrates.Models.ComputationalWorkflow.html
+  commentId: T:ROCrates.Models.ComputationalWorkflow
+  fullName: ROCrates.Models.ComputationalWorkflow
+  nameWithType: ComputationalWorkflow
+- uid: ROCrates.Models.ComputationalWorkflow._empty
+  name: _empty()
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__empty
+  commentId: M:ROCrates.Models.ComputationalWorkflow._empty
+  fullName: ROCrates.Models.ComputationalWorkflow._empty()
+  nameWithType: ComputationalWorkflow._empty()
+- uid: ROCrates.Models.ComputationalWorkflow._empty*
+  name: _empty
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__empty_
+  commentId: Overload:ROCrates.Models.ComputationalWorkflow._empty
+  fullName: ROCrates.Models.ComputationalWorkflow._empty
+  nameWithType: ComputationalWorkflow._empty
+- uid: ROCrates.Models.ComputationalWorkflow.#ctor
+  name: ComputationalWorkflow()
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__ctor
+  commentId: M:ROCrates.Models.ComputationalWorkflow.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.ComputationalWorkflow.ComputationalWorkflow()
+  fullName.vb: ROCrates.Models.ComputationalWorkflow.New()
+  nameWithType: ComputationalWorkflow.ComputationalWorkflow()
+  nameWithType.vb: ComputationalWorkflow.New()
+- uid: ROCrates.Models.ComputationalWorkflow.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: ComputationalWorkflow(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.ComputationalWorkflow.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.ComputationalWorkflow.ComputationalWorkflow(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.ComputationalWorkflow.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: ComputationalWorkflow.ComputationalWorkflow(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: ComputationalWorkflow.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.ComputationalWorkflow.#ctor*
+  name: ComputationalWorkflow
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__ctor_
+  commentId: Overload:ROCrates.Models.ComputationalWorkflow.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.ComputationalWorkflow.ComputationalWorkflow
+  fullName.vb: ROCrates.Models.ComputationalWorkflow.New
+  nameWithType: ComputationalWorkflow.ComputationalWorkflow
+  nameWithType.vb: ComputationalWorkflow.New
+- uid: ROCrates.Models.ComputationalWorkflow.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.ComputationalWorkflow.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.ComputationalWorkflow.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.ComputationalWorkflow.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: ComputationalWorkflow.Deserialize(string, ROCrate)
+  nameWithType.vb: ComputationalWorkflow.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.ComputationalWorkflow.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow_Deserialize_
+  commentId: Overload:ROCrates.Models.ComputationalWorkflow.Deserialize
+  fullName: ROCrates.Models.ComputationalWorkflow.Deserialize
+  nameWithType: ComputationalWorkflow.Deserialize
+- uid: ROCrates.Models.ComputationalWorkflow.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow_Serialize
+  commentId: M:ROCrates.Models.ComputationalWorkflow.Serialize
+  fullName: ROCrates.Models.ComputationalWorkflow.Serialize()
+  nameWithType: ComputationalWorkflow.Serialize()
+- uid: ROCrates.Models.ComputationalWorkflow.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow_Serialize_
+  commentId: Overload:ROCrates.Models.ComputationalWorkflow.Serialize
+  fullName: ROCrates.Models.ComputationalWorkflow.Serialize
+  nameWithType: ComputationalWorkflow.Serialize
+- uid: ROCrates.Models.ComputerLanguage
+  name: ComputerLanguage
+  href: api/ROCrates.Models.ComputerLanguage.html
+  commentId: T:ROCrates.Models.ComputerLanguage
+  fullName: ROCrates.Models.ComputerLanguage
+  nameWithType: ComputerLanguage
+- uid: ROCrates.Models.ComputerLanguage.#ctor
+  name: ComputerLanguage()
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage__ctor
+  commentId: M:ROCrates.Models.ComputerLanguage.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.ComputerLanguage.ComputerLanguage()
+  fullName.vb: ROCrates.Models.ComputerLanguage.New()
+  nameWithType: ComputerLanguage.ComputerLanguage()
+  nameWithType.vb: ComputerLanguage.New()
+- uid: ROCrates.Models.ComputerLanguage.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: ComputerLanguage(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.ComputerLanguage.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.ComputerLanguage.ComputerLanguage(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.ComputerLanguage.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: ComputerLanguage.ComputerLanguage(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: ComputerLanguage.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.ComputerLanguage.#ctor*
+  name: ComputerLanguage
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage__ctor_
+  commentId: Overload:ROCrates.Models.ComputerLanguage.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.ComputerLanguage.ComputerLanguage
+  fullName.vb: ROCrates.Models.ComputerLanguage.New
+  nameWithType: ComputerLanguage.ComputerLanguage
+  nameWithType.vb: ComputerLanguage.New
+- uid: ROCrates.Models.ComputerLanguage.AlternativeName
+  name: AlternativeName
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_AlternativeName
+  commentId: P:ROCrates.Models.ComputerLanguage.AlternativeName
+  fullName: ROCrates.Models.ComputerLanguage.AlternativeName
+  nameWithType: ComputerLanguage.AlternativeName
+- uid: ROCrates.Models.ComputerLanguage.AlternativeName*
+  name: AlternativeName
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_AlternativeName_
+  commentId: Overload:ROCrates.Models.ComputerLanguage.AlternativeName
+  fullName: ROCrates.Models.ComputerLanguage.AlternativeName
+  nameWithType: ComputerLanguage.AlternativeName
+- uid: ROCrates.Models.ComputerLanguage.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.ComputerLanguage.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.ComputerLanguage.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.ComputerLanguage.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: ComputerLanguage.Deserialize(string, ROCrate)
+  nameWithType.vb: ComputerLanguage.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.ComputerLanguage.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Deserialize_
+  commentId: Overload:ROCrates.Models.ComputerLanguage.Deserialize
+  fullName: ROCrates.Models.ComputerLanguage.Deserialize
+  nameWithType: ComputerLanguage.Deserialize
+- uid: ROCrates.Models.ComputerLanguage.Identifier
+  name: Identifier
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Identifier
+  commentId: P:ROCrates.Models.ComputerLanguage.Identifier
+  fullName: ROCrates.Models.ComputerLanguage.Identifier
+  nameWithType: ComputerLanguage.Identifier
+- uid: ROCrates.Models.ComputerLanguage.Identifier*
+  name: Identifier
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Identifier_
+  commentId: Overload:ROCrates.Models.ComputerLanguage.Identifier
+  fullName: ROCrates.Models.ComputerLanguage.Identifier
+  nameWithType: ComputerLanguage.Identifier
+- uid: ROCrates.Models.ComputerLanguage.Name
+  name: Name
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Name
+  commentId: P:ROCrates.Models.ComputerLanguage.Name
+  fullName: ROCrates.Models.ComputerLanguage.Name
+  nameWithType: ComputerLanguage.Name
+- uid: ROCrates.Models.ComputerLanguage.Name*
+  name: Name
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Name_
+  commentId: Overload:ROCrates.Models.ComputerLanguage.Name
+  fullName: ROCrates.Models.ComputerLanguage.Name
+  nameWithType: ComputerLanguage.Name
+- uid: ROCrates.Models.ComputerLanguage.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Serialize
+  commentId: M:ROCrates.Models.ComputerLanguage.Serialize
+  fullName: ROCrates.Models.ComputerLanguage.Serialize()
+  nameWithType: ComputerLanguage.Serialize()
+- uid: ROCrates.Models.ComputerLanguage.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Serialize_
+  commentId: Overload:ROCrates.Models.ComputerLanguage.Serialize
+  fullName: ROCrates.Models.ComputerLanguage.Serialize
+  nameWithType: ComputerLanguage.Serialize
+- uid: ROCrates.Models.ComputerLanguage.Url
+  name: Url
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Url
+  commentId: P:ROCrates.Models.ComputerLanguage.Url
+  fullName: ROCrates.Models.ComputerLanguage.Url
+  nameWithType: ComputerLanguage.Url
+- uid: ROCrates.Models.ComputerLanguage.Url*
+  name: Url
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Url_
+  commentId: Overload:ROCrates.Models.ComputerLanguage.Url
+  fullName: ROCrates.Models.ComputerLanguage.Url
+  nameWithType: ComputerLanguage.Url
+- uid: ROCrates.Models.ComputerLanguage.Version
+  name: Version
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Version
+  commentId: P:ROCrates.Models.ComputerLanguage.Version
+  fullName: ROCrates.Models.ComputerLanguage.Version
+  nameWithType: ComputerLanguage.Version
+- uid: ROCrates.Models.ComputerLanguage.Version*
+  name: Version
+  href: api/ROCrates.Models.ComputerLanguage.html#ROCrates_Models_ComputerLanguage_Version_
+  commentId: Overload:ROCrates.Models.ComputerLanguage.Version
+  fullName: ROCrates.Models.ComputerLanguage.Version
+  nameWithType: ComputerLanguage.Version
+- uid: ROCrates.Models.ContextEntity
+  name: ContextEntity
+  href: api/ROCrates.Models.ContextEntity.html
+  commentId: T:ROCrates.Models.ContextEntity
+  fullName: ROCrates.Models.ContextEntity
+  nameWithType: ContextEntity
+- uid: ROCrates.Models.ContextEntity.#ctor
+  name: ContextEntity()
+  href: api/ROCrates.Models.ContextEntity.html#ROCrates_Models_ContextEntity__ctor
+  commentId: M:ROCrates.Models.ContextEntity.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.ContextEntity.ContextEntity()
+  fullName.vb: ROCrates.Models.ContextEntity.New()
+  nameWithType: ContextEntity.ContextEntity()
+  nameWithType.vb: ContextEntity.New()
+- uid: ROCrates.Models.ContextEntity.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: ContextEntity(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.ContextEntity.html#ROCrates_Models_ContextEntity__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.ContextEntity.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.ContextEntity.ContextEntity(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.ContextEntity.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: ContextEntity.ContextEntity(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: ContextEntity.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.ContextEntity.#ctor*
+  name: ContextEntity
+  href: api/ROCrates.Models.ContextEntity.html#ROCrates_Models_ContextEntity__ctor_
+  commentId: Overload:ROCrates.Models.ContextEntity.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.ContextEntity.ContextEntity
+  fullName.vb: ROCrates.Models.ContextEntity.New
+  nameWithType: ContextEntity.ContextEntity
+  nameWithType.vb: ContextEntity.New
+- uid: ROCrates.Models.ContextEntity.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.ContextEntity.html#ROCrates_Models_ContextEntity_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.ContextEntity.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.ContextEntity.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.ContextEntity.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: ContextEntity.Deserialize(string, ROCrate)
+  nameWithType.vb: ContextEntity.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.ContextEntity.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.ContextEntity.html#ROCrates_Models_ContextEntity_Deserialize_
+  commentId: Overload:ROCrates.Models.ContextEntity.Deserialize
+  fullName: ROCrates.Models.ContextEntity.Deserialize
+  nameWithType: ContextEntity.Deserialize
+- uid: ROCrates.Models.ContextEntity.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.ContextEntity.html#ROCrates_Models_ContextEntity_Serialize
+  commentId: M:ROCrates.Models.ContextEntity.Serialize
+  fullName: ROCrates.Models.ContextEntity.Serialize()
+  nameWithType: ContextEntity.Serialize()
+- uid: ROCrates.Models.ContextEntity.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.ContextEntity.html#ROCrates_Models_ContextEntity_Serialize_
+  commentId: Overload:ROCrates.Models.ContextEntity.Serialize
+  fullName: ROCrates.Models.ContextEntity.Serialize
+  nameWithType: ContextEntity.Serialize
+- uid: ROCrates.Models.CreativeWork
+  name: CreativeWork
+  href: api/ROCrates.Models.CreativeWork.html
+  commentId: T:ROCrates.Models.CreativeWork
+  fullName: ROCrates.Models.CreativeWork
+  nameWithType: CreativeWork
+- uid: ROCrates.Models.CreativeWork.#ctor
+  name: CreativeWork()
+  href: api/ROCrates.Models.CreativeWork.html#ROCrates_Models_CreativeWork__ctor
+  commentId: M:ROCrates.Models.CreativeWork.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.CreativeWork.CreativeWork()
+  fullName.vb: ROCrates.Models.CreativeWork.New()
+  nameWithType: CreativeWork.CreativeWork()
+  nameWithType.vb: CreativeWork.New()
+- uid: ROCrates.Models.CreativeWork.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: CreativeWork(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.CreativeWork.html#ROCrates_Models_CreativeWork__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.CreativeWork.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.CreativeWork.CreativeWork(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.CreativeWork.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: CreativeWork.CreativeWork(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: CreativeWork.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.CreativeWork.#ctor*
+  name: CreativeWork
+  href: api/ROCrates.Models.CreativeWork.html#ROCrates_Models_CreativeWork__ctor_
+  commentId: Overload:ROCrates.Models.CreativeWork.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.CreativeWork.CreativeWork
+  fullName.vb: ROCrates.Models.CreativeWork.New
+  nameWithType: CreativeWork.CreativeWork
+  nameWithType.vb: CreativeWork.New
+- uid: ROCrates.Models.CreativeWork.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.CreativeWork.html#ROCrates_Models_CreativeWork_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.CreativeWork.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.CreativeWork.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.CreativeWork.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: CreativeWork.Deserialize(string, ROCrate)
+  nameWithType.vb: CreativeWork.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.CreativeWork.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.CreativeWork.html#ROCrates_Models_CreativeWork_Deserialize_
+  commentId: Overload:ROCrates.Models.CreativeWork.Deserialize
+  fullName: ROCrates.Models.CreativeWork.Deserialize
+  nameWithType: CreativeWork.Deserialize
+- uid: ROCrates.Models.CreativeWork.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.CreativeWork.html#ROCrates_Models_CreativeWork_Serialize
+  commentId: M:ROCrates.Models.CreativeWork.Serialize
+  fullName: ROCrates.Models.CreativeWork.Serialize()
+  nameWithType: CreativeWork.Serialize()
+- uid: ROCrates.Models.CreativeWork.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.CreativeWork.html#ROCrates_Models_CreativeWork_Serialize_
+  commentId: Overload:ROCrates.Models.CreativeWork.Serialize
+  fullName: ROCrates.Models.CreativeWork.Serialize
+  nameWithType: CreativeWork.Serialize
+- uid: ROCrates.Models.DataEntity
+  name: DataEntity
+  href: api/ROCrates.Models.DataEntity.html
+  commentId: T:ROCrates.Models.DataEntity
+  fullName: ROCrates.Models.DataEntity
+  nameWithType: DataEntity
+- uid: ROCrates.Models.DataEntity.#ctor
+  name: DataEntity()
+  href: api/ROCrates.Models.DataEntity.html#ROCrates_Models_DataEntity__ctor
+  commentId: M:ROCrates.Models.DataEntity.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.DataEntity.DataEntity()
+  fullName.vb: ROCrates.Models.DataEntity.New()
+  nameWithType: DataEntity.DataEntity()
+  nameWithType.vb: DataEntity.New()
+- uid: ROCrates.Models.DataEntity.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: DataEntity(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.DataEntity.html#ROCrates_Models_DataEntity__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.DataEntity.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.DataEntity.DataEntity(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.DataEntity.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: DataEntity.DataEntity(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: DataEntity.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.DataEntity.#ctor*
+  name: DataEntity
+  href: api/ROCrates.Models.DataEntity.html#ROCrates_Models_DataEntity__ctor_
+  commentId: Overload:ROCrates.Models.DataEntity.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.DataEntity.DataEntity
+  fullName.vb: ROCrates.Models.DataEntity.New
+  nameWithType: DataEntity.DataEntity
+  nameWithType.vb: DataEntity.New
+- uid: ROCrates.Models.DataEntity.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.DataEntity.html#ROCrates_Models_DataEntity_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.DataEntity.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.DataEntity.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.DataEntity.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: DataEntity.Deserialize(string, ROCrate)
+  nameWithType.vb: DataEntity.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.DataEntity.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.DataEntity.html#ROCrates_Models_DataEntity_Deserialize_
+  commentId: Overload:ROCrates.Models.DataEntity.Deserialize
+  fullName: ROCrates.Models.DataEntity.Deserialize
+  nameWithType: DataEntity.Deserialize
+- uid: ROCrates.Models.DataEntity.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.DataEntity.html#ROCrates_Models_DataEntity_Serialize
+  commentId: M:ROCrates.Models.DataEntity.Serialize
+  fullName: ROCrates.Models.DataEntity.Serialize()
+  nameWithType: DataEntity.Serialize()
+- uid: ROCrates.Models.DataEntity.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.DataEntity.html#ROCrates_Models_DataEntity_Serialize_
+  commentId: Overload:ROCrates.Models.DataEntity.Serialize
+  fullName: ROCrates.Models.DataEntity.Serialize
+  nameWithType: DataEntity.Serialize
+- uid: ROCrates.Models.DataEntity.Write(System.String)
+  name: Write(string)
+  href: api/ROCrates.Models.DataEntity.html#ROCrates_Models_DataEntity_Write_System_String_
+  commentId: M:ROCrates.Models.DataEntity.Write(System.String)
+  name.vb: Write(String)
+  fullName: ROCrates.Models.DataEntity.Write(string)
+  fullName.vb: ROCrates.Models.DataEntity.Write(String)
+  nameWithType: DataEntity.Write(string)
+  nameWithType.vb: DataEntity.Write(String)
+- uid: ROCrates.Models.DataEntity.Write*
+  name: Write
+  href: api/ROCrates.Models.DataEntity.html#ROCrates_Models_DataEntity_Write_
+  commentId: Overload:ROCrates.Models.DataEntity.Write
+  fullName: ROCrates.Models.DataEntity.Write
+  nameWithType: DataEntity.Write
+- uid: ROCrates.Models.Dataset
+  name: Dataset
+  href: api/ROCrates.Models.Dataset.html
+  commentId: T:ROCrates.Models.Dataset
+  fullName: ROCrates.Models.Dataset
+  nameWithType: Dataset
+- uid: ROCrates.Models.Dataset._empty
+  name: _empty()
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__empty
+  commentId: M:ROCrates.Models.Dataset._empty
+  fullName: ROCrates.Models.Dataset._empty()
+  nameWithType: Dataset._empty()
+- uid: ROCrates.Models.Dataset._empty*
+  name: _empty
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__empty_
+  commentId: Overload:ROCrates.Models.Dataset._empty
+  fullName: ROCrates.Models.Dataset._empty
+  nameWithType: Dataset._empty
+- uid: ROCrates.Models.Dataset.#ctor
+  name: Dataset()
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__ctor
+  commentId: M:ROCrates.Models.Dataset.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.Dataset.Dataset()
+  fullName.vb: ROCrates.Models.Dataset.New()
+  nameWithType: Dataset.Dataset()
+  nameWithType.vb: Dataset.New()
+- uid: ROCrates.Models.Dataset.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: Dataset(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.Dataset.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.Dataset.Dataset(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.Dataset.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: Dataset.Dataset(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: Dataset.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.Dataset.#ctor*
+  name: Dataset
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__ctor_
+  commentId: Overload:ROCrates.Models.Dataset.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.Dataset.Dataset
+  fullName.vb: ROCrates.Models.Dataset.New
+  nameWithType: Dataset.Dataset
+  nameWithType.vb: Dataset.New
+- uid: ROCrates.Models.Dataset.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.Dataset.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.Dataset.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.Dataset.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: Dataset.Deserialize(string, ROCrate)
+  nameWithType.vb: Dataset.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.Dataset.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset_Deserialize_
+  commentId: Overload:ROCrates.Models.Dataset.Deserialize
+  fullName: ROCrates.Models.Dataset.Deserialize
+  nameWithType: Dataset.Deserialize
+- uid: ROCrates.Models.Dataset.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset_Serialize
+  commentId: M:ROCrates.Models.Dataset.Serialize
+  fullName: ROCrates.Models.Dataset.Serialize()
+  nameWithType: Dataset.Serialize()
+- uid: ROCrates.Models.Dataset.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset_Serialize_
+  commentId: Overload:ROCrates.Models.Dataset.Serialize
+  fullName: ROCrates.Models.Dataset.Serialize
+  nameWithType: Dataset.Serialize
+- uid: ROCrates.Models.Dataset.Write(System.String)
+  name: Write(string)
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset_Write_System_String_
+  commentId: M:ROCrates.Models.Dataset.Write(System.String)
+  name.vb: Write(String)
+  fullName: ROCrates.Models.Dataset.Write(string)
+  fullName.vb: ROCrates.Models.Dataset.Write(String)
+  nameWithType: Dataset.Write(string)
+  nameWithType.vb: Dataset.Write(String)
+- uid: ROCrates.Models.Dataset.Write*
+  name: Write
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset_Write_
+  commentId: Overload:ROCrates.Models.Dataset.Write
+  fullName: ROCrates.Models.Dataset.Write
+  nameWithType: Dataset.Write
+- uid: ROCrates.Models.Entity
+  name: Entity
+  href: api/ROCrates.Models.Entity.html
+  commentId: T:ROCrates.Models.Entity
+  fullName: ROCrates.Models.Entity
+  nameWithType: Entity
+- uid: ROCrates.Models.Entity.#ctor
+  name: Entity()
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity__ctor
+  commentId: M:ROCrates.Models.Entity.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.Entity.Entity()
+  fullName.vb: ROCrates.Models.Entity.New()
+  nameWithType: Entity.Entity()
+  nameWithType.vb: Entity.New()
+- uid: ROCrates.Models.Entity.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: Entity(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.Entity.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.Entity.Entity(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.Entity.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: Entity.Entity(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: Entity.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.Entity.#ctor*
+  name: Entity
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity__ctor_
+  commentId: Overload:ROCrates.Models.Entity.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.Entity.Entity
+  fullName.vb: ROCrates.Models.Entity.New
+  nameWithType: Entity.Entity
+  nameWithType.vb: Entity.New
+- uid: ROCrates.Models.Entity.AppendTo*
+  name: AppendTo
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_AppendTo_
+  commentId: Overload:ROCrates.Models.Entity.AppendTo
+  fullName: ROCrates.Models.Entity.AppendTo
+  nameWithType: Entity.AppendTo
+- uid: ROCrates.Models.Entity.AppendTo``1(System.String,``0)
+  name: AppendTo<T>(string, T)
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_AppendTo__1_System_String___0_
+  commentId: M:ROCrates.Models.Entity.AppendTo``1(System.String,``0)
+  name.vb: AppendTo(Of T)(String, T)
+  fullName: ROCrates.Models.Entity.AppendTo<T>(string, T)
+  fullName.vb: ROCrates.Models.Entity.AppendTo(Of T)(String, T)
+  nameWithType: Entity.AppendTo<T>(string, T)
+  nameWithType.vb: Entity.AppendTo(Of T)(String, T)
+- uid: ROCrates.Models.Entity.DeleteProperty(System.String)
+  name: DeleteProperty(string)
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_DeleteProperty_System_String_
+  commentId: M:ROCrates.Models.Entity.DeleteProperty(System.String)
+  name.vb: DeleteProperty(String)
+  fullName: ROCrates.Models.Entity.DeleteProperty(string)
+  fullName.vb: ROCrates.Models.Entity.DeleteProperty(String)
+  nameWithType: Entity.DeleteProperty(string)
+  nameWithType.vb: Entity.DeleteProperty(String)
+- uid: ROCrates.Models.Entity.DeleteProperty*
+  name: DeleteProperty
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_DeleteProperty_
+  commentId: Overload:ROCrates.Models.Entity.DeleteProperty
+  fullName: ROCrates.Models.Entity.DeleteProperty
+  nameWithType: Entity.DeleteProperty
+- uid: ROCrates.Models.Entity.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.Entity.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.Entity.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.Entity.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: Entity.Deserialize(string, ROCrate)
+  nameWithType.vb: Entity.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.Entity.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_Deserialize_
+  commentId: Overload:ROCrates.Models.Entity.Deserialize
+  fullName: ROCrates.Models.Entity.Deserialize
+  nameWithType: Entity.Deserialize
+- uid: ROCrates.Models.Entity.GetCanonicalId
+  name: GetCanonicalId()
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_GetCanonicalId
+  commentId: M:ROCrates.Models.Entity.GetCanonicalId
+  fullName: ROCrates.Models.Entity.GetCanonicalId()
+  nameWithType: Entity.GetCanonicalId()
+- uid: ROCrates.Models.Entity.GetCanonicalId*
+  name: GetCanonicalId
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_GetCanonicalId_
+  commentId: Overload:ROCrates.Models.Entity.GetCanonicalId
+  fullName: ROCrates.Models.Entity.GetCanonicalId
+  nameWithType: Entity.GetCanonicalId
+- uid: ROCrates.Models.Entity.GetProperty*
+  name: GetProperty
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_GetProperty_
+  commentId: Overload:ROCrates.Models.Entity.GetProperty
+  fullName: ROCrates.Models.Entity.GetProperty
+  nameWithType: Entity.GetProperty
+- uid: ROCrates.Models.Entity.GetProperty``1(System.String)
+  name: GetProperty<T>(string)
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_GetProperty__1_System_String_
+  commentId: M:ROCrates.Models.Entity.GetProperty``1(System.String)
+  name.vb: GetProperty(Of T)(String)
+  fullName: ROCrates.Models.Entity.GetProperty<T>(string)
+  fullName.vb: ROCrates.Models.Entity.GetProperty(Of T)(String)
+  nameWithType: Entity.GetProperty<T>(string)
+  nameWithType.vb: Entity.GetProperty(Of T)(String)
+- uid: ROCrates.Models.Entity.Id
+  name: Id
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_Id
+  commentId: P:ROCrates.Models.Entity.Id
+  fullName: ROCrates.Models.Entity.Id
+  nameWithType: Entity.Id
+- uid: ROCrates.Models.Entity.Id*
+  name: Id
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_Id_
+  commentId: Overload:ROCrates.Models.Entity.Id
+  fullName: ROCrates.Models.Entity.Id
+  nameWithType: Entity.Id
+- uid: ROCrates.Models.Entity.Properties
+  name: Properties
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_Properties
+  commentId: P:ROCrates.Models.Entity.Properties
+  fullName: ROCrates.Models.Entity.Properties
+  nameWithType: Entity.Properties
+- uid: ROCrates.Models.Entity.Properties*
+  name: Properties
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_Properties_
+  commentId: Overload:ROCrates.Models.Entity.Properties
+  fullName: ROCrates.Models.Entity.Properties
+  nameWithType: Entity.Properties
+- uid: ROCrates.Models.Entity.RoCrate
+  name: RoCrate
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_RoCrate
+  commentId: P:ROCrates.Models.Entity.RoCrate
+  fullName: ROCrates.Models.Entity.RoCrate
+  nameWithType: Entity.RoCrate
+- uid: ROCrates.Models.Entity.RoCrate*
+  name: RoCrate
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_RoCrate_
+  commentId: Overload:ROCrates.Models.Entity.RoCrate
+  fullName: ROCrates.Models.Entity.RoCrate
+  nameWithType: Entity.RoCrate
+- uid: ROCrates.Models.Entity.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_Serialize
+  commentId: M:ROCrates.Models.Entity.Serialize
+  fullName: ROCrates.Models.Entity.Serialize()
+  nameWithType: Entity.Serialize()
+- uid: ROCrates.Models.Entity.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_Serialize_
+  commentId: Overload:ROCrates.Models.Entity.Serialize
+  fullName: ROCrates.Models.Entity.Serialize
+  nameWithType: Entity.Serialize
+- uid: ROCrates.Models.Entity.SetProperty*
+  name: SetProperty
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_SetProperty_
+  commentId: Overload:ROCrates.Models.Entity.SetProperty
+  fullName: ROCrates.Models.Entity.SetProperty
+  nameWithType: Entity.SetProperty
+- uid: ROCrates.Models.Entity.SetProperty``1(System.String,``0)
+  name: SetProperty<T>(string, T)
+  href: api/ROCrates.Models.Entity.html#ROCrates_Models_Entity_SetProperty__1_System_String___0_
+  commentId: M:ROCrates.Models.Entity.SetProperty``1(System.String,``0)
+  name.vb: SetProperty(Of T)(String, T)
+  fullName: ROCrates.Models.Entity.SetProperty<T>(string, T)
+  fullName.vb: ROCrates.Models.Entity.SetProperty(Of T)(String, T)
+  nameWithType: Entity.SetProperty<T>(string, T)
+  nameWithType.vb: Entity.SetProperty(Of T)(String, T)
+- uid: ROCrates.Models.File
+  name: File
+  href: api/ROCrates.Models.File.html
+  commentId: T:ROCrates.Models.File
+  fullName: ROCrates.Models.File
+  nameWithType: File
+- uid: ROCrates.Models.File.#ctor
+  name: File()
+  href: api/ROCrates.Models.File.html#ROCrates_Models_File__ctor
+  commentId: M:ROCrates.Models.File.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.File.File()
+  fullName.vb: ROCrates.Models.File.New()
+  nameWithType: File.File()
+  nameWithType.vb: File.New()
+- uid: ROCrates.Models.File.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: File(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.File.html#ROCrates_Models_File__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.File.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.File.File(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.File.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: File.File(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: File.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.File.#ctor*
+  name: File
+  href: api/ROCrates.Models.File.html#ROCrates_Models_File__ctor_
+  commentId: Overload:ROCrates.Models.File.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.File.File
+  fullName.vb: ROCrates.Models.File.New
+  nameWithType: File.File
+  nameWithType.vb: File.New
+- uid: ROCrates.Models.File.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.File.html#ROCrates_Models_File_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.File.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.File.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.File.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: File.Deserialize(string, ROCrate)
+  nameWithType.vb: File.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.File.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.File.html#ROCrates_Models_File_Deserialize_
+  commentId: Overload:ROCrates.Models.File.Deserialize
+  fullName: ROCrates.Models.File.Deserialize
+  nameWithType: File.Deserialize
+- uid: ROCrates.Models.File.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.File.html#ROCrates_Models_File_Serialize
+  commentId: M:ROCrates.Models.File.Serialize
+  fullName: ROCrates.Models.File.Serialize()
+  nameWithType: File.Serialize()
+- uid: ROCrates.Models.File.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.File.html#ROCrates_Models_File_Serialize_
+  commentId: Overload:ROCrates.Models.File.Serialize
+  fullName: ROCrates.Models.File.Serialize
+  nameWithType: File.Serialize
+- uid: ROCrates.Models.File.Write(System.String)
+  name: Write(string)
+  href: api/ROCrates.Models.File.html#ROCrates_Models_File_Write_System_String_
+  commentId: M:ROCrates.Models.File.Write(System.String)
+  name.vb: Write(String)
+  fullName: ROCrates.Models.File.Write(string)
+  fullName.vb: ROCrates.Models.File.Write(String)
+  nameWithType: File.Write(string)
+  nameWithType.vb: File.Write(String)
+- uid: ROCrates.Models.File.Write*
+  name: Write
+  href: api/ROCrates.Models.File.html#ROCrates_Models_File_Write_
+  commentId: Overload:ROCrates.Models.File.Write
+  fullName: ROCrates.Models.File.Write
+  nameWithType: File.Write
+- uid: ROCrates.Models.FileOrDir
+  name: FileOrDir
+  href: api/ROCrates.Models.FileOrDir.html
+  commentId: T:ROCrates.Models.FileOrDir
+  fullName: ROCrates.Models.FileOrDir
+  nameWithType: FileOrDir
+- uid: ROCrates.Models.FileOrDir._destPath
+  name: _destPath
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__destPath
+  commentId: F:ROCrates.Models.FileOrDir._destPath
+  fullName: ROCrates.Models.FileOrDir._destPath
+  nameWithType: FileOrDir._destPath
+- uid: ROCrates.Models.FileOrDir._fetchRemote
+  name: _fetchRemote
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__fetchRemote
+  commentId: F:ROCrates.Models.FileOrDir._fetchRemote
+  fullName: ROCrates.Models.FileOrDir._fetchRemote
+  nameWithType: FileOrDir._fetchRemote
+- uid: ROCrates.Models.FileOrDir._source
+  name: _source
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__source
+  commentId: F:ROCrates.Models.FileOrDir._source
+  fullName: ROCrates.Models.FileOrDir._source
+  nameWithType: FileOrDir._source
+- uid: ROCrates.Models.FileOrDir._validateUrl
+  name: _validateUrl
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__validateUrl
+  commentId: F:ROCrates.Models.FileOrDir._validateUrl
+  fullName: ROCrates.Models.FileOrDir._validateUrl
+  nameWithType: FileOrDir._validateUrl
+- uid: ROCrates.Models.FileOrDir.#ctor
+  name: FileOrDir()
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__ctor
+  commentId: M:ROCrates.Models.FileOrDir.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.FileOrDir.FileOrDir()
+  fullName.vb: ROCrates.Models.FileOrDir.New()
+  nameWithType: FileOrDir.FileOrDir()
+  nameWithType.vb: FileOrDir.New()
+- uid: ROCrates.Models.FileOrDir.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: FileOrDir(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.FileOrDir.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.FileOrDir.FileOrDir(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.FileOrDir.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: FileOrDir.FileOrDir(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: FileOrDir.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.FileOrDir.#ctor*
+  name: FileOrDir
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__ctor_
+  commentId: Overload:ROCrates.Models.FileOrDir.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.FileOrDir.FileOrDir
+  fullName.vb: ROCrates.Models.FileOrDir.New
+  nameWithType: FileOrDir.FileOrDir
+  nameWithType.vb: FileOrDir.New
+- uid: ROCrates.Models.FileOrDir.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.FileOrDir.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.FileOrDir.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.FileOrDir.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: FileOrDir.Deserialize(string, ROCrate)
+  nameWithType.vb: FileOrDir.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.FileOrDir.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir_Deserialize_
+  commentId: Overload:ROCrates.Models.FileOrDir.Deserialize
+  fullName: ROCrates.Models.FileOrDir.Deserialize
+  nameWithType: FileOrDir.Deserialize
+- uid: ROCrates.Models.FileOrDir.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir_Serialize
+  commentId: M:ROCrates.Models.FileOrDir.Serialize
+  fullName: ROCrates.Models.FileOrDir.Serialize()
+  nameWithType: FileOrDir.Serialize()
+- uid: ROCrates.Models.FileOrDir.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir_Serialize_
+  commentId: Overload:ROCrates.Models.FileOrDir.Serialize
+  fullName: ROCrates.Models.FileOrDir.Serialize
+  nameWithType: FileOrDir.Serialize
+- uid: ROCrates.Models.Metadata
+  name: Metadata
+  href: api/ROCrates.Models.Metadata.html
+  commentId: T:ROCrates.Models.Metadata
+  fullName: ROCrates.Models.Metadata
+  nameWithType: Metadata
+- uid: ROCrates.Models.Metadata.#ctor
+  name: Metadata()
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata__ctor
+  commentId: M:ROCrates.Models.Metadata.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.Metadata.Metadata()
+  fullName.vb: ROCrates.Models.Metadata.New()
+  nameWithType: Metadata.Metadata()
+  nameWithType.vb: Metadata.New()
+- uid: ROCrates.Models.Metadata.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: Metadata(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.Metadata.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.Metadata.Metadata(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.Metadata.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: Metadata.Metadata(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: Metadata.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.Metadata.#ctor*
+  name: Metadata
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata__ctor_
+  commentId: Overload:ROCrates.Models.Metadata.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.Metadata.Metadata
+  fullName.vb: ROCrates.Models.Metadata.New
+  nameWithType: Metadata.Metadata
+  nameWithType.vb: Metadata.New
+- uid: ROCrates.Models.Metadata.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.Metadata.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.Metadata.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.Metadata.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: Metadata.Deserialize(string, ROCrate)
+  nameWithType.vb: Metadata.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.Metadata.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_Deserialize_
+  commentId: Overload:ROCrates.Models.Metadata.Deserialize
+  fullName: ROCrates.Models.Metadata.Deserialize
+  nameWithType: Metadata.Deserialize
+- uid: ROCrates.Models.Metadata.ExtraTerms
+  name: ExtraTerms
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_ExtraTerms
+  commentId: P:ROCrates.Models.Metadata.ExtraTerms
+  fullName: ROCrates.Models.Metadata.ExtraTerms
+  nameWithType: Metadata.ExtraTerms
+- uid: ROCrates.Models.Metadata.ExtraTerms*
+  name: ExtraTerms
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_ExtraTerms_
+  commentId: Overload:ROCrates.Models.Metadata.ExtraTerms
+  fullName: ROCrates.Models.Metadata.ExtraTerms
+  nameWithType: Metadata.ExtraTerms
+- uid: ROCrates.Models.Metadata.FileName
+  name: FileName
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_FileName
+  commentId: F:ROCrates.Models.Metadata.FileName
+  fullName: ROCrates.Models.Metadata.FileName
+  nameWithType: Metadata.FileName
+- uid: ROCrates.Models.Metadata.Profile
+  name: Profile
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_Profile
+  commentId: F:ROCrates.Models.Metadata.Profile
+  fullName: ROCrates.Models.Metadata.Profile
+  nameWithType: Metadata.Profile
+- uid: ROCrates.Models.Metadata.RootDataset
+  name: RootDataset
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_RootDataset
+  commentId: P:ROCrates.Models.Metadata.RootDataset
+  fullName: ROCrates.Models.Metadata.RootDataset
+  nameWithType: Metadata.RootDataset
+- uid: ROCrates.Models.Metadata.RootDataset*
+  name: RootDataset
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_RootDataset_
+  commentId: Overload:ROCrates.Models.Metadata.RootDataset
+  fullName: ROCrates.Models.Metadata.RootDataset
+  nameWithType: Metadata.RootDataset
+- uid: ROCrates.Models.Metadata.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_Serialize
+  commentId: M:ROCrates.Models.Metadata.Serialize
+  fullName: ROCrates.Models.Metadata.Serialize()
+  nameWithType: Metadata.Serialize()
+- uid: ROCrates.Models.Metadata.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_Serialize_
+  commentId: Overload:ROCrates.Models.Metadata.Serialize
+  fullName: ROCrates.Models.Metadata.Serialize
+  nameWithType: Metadata.Serialize
+- uid: ROCrates.Models.Metadata.Write(System.String)
+  name: Write(string)
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_Write_System_String_
+  commentId: M:ROCrates.Models.Metadata.Write(System.String)
+  name.vb: Write(String)
+  fullName: ROCrates.Models.Metadata.Write(string)
+  fullName.vb: ROCrates.Models.Metadata.Write(String)
+  nameWithType: Metadata.Write(string)
+  nameWithType.vb: Metadata.Write(String)
+- uid: ROCrates.Models.Metadata.Write*
+  name: Write
+  href: api/ROCrates.Models.Metadata.html#ROCrates_Models_Metadata_Write_
+  commentId: Overload:ROCrates.Models.Metadata.Write
+  fullName: ROCrates.Models.Metadata.Write
+  nameWithType: Metadata.Write
+- uid: ROCrates.Models.Part
+  name: Part
+  href: api/ROCrates.Models.Part.html
+  commentId: T:ROCrates.Models.Part
+  fullName: ROCrates.Models.Part
+  nameWithType: Part
+- uid: ROCrates.Models.Part.#ctor
+  name: Part()
+  href: api/ROCrates.Models.Part.html#ROCrates_Models_Part__ctor
+  commentId: M:ROCrates.Models.Part.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.Part.Part()
+  fullName.vb: ROCrates.Models.Part.New()
+  nameWithType: Part.Part()
+  nameWithType.vb: Part.New()
+- uid: ROCrates.Models.Part.#ctor*
+  name: Part
+  href: api/ROCrates.Models.Part.html#ROCrates_Models_Part__ctor_
+  commentId: Overload:ROCrates.Models.Part.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.Part.Part
+  fullName.vb: ROCrates.Models.Part.New
+  nameWithType: Part.Part
+  nameWithType.vb: Part.New
+- uid: ROCrates.Models.Part.Id
+  name: Id
+  href: api/ROCrates.Models.Part.html#ROCrates_Models_Part_Id
+  commentId: P:ROCrates.Models.Part.Id
+  fullName: ROCrates.Models.Part.Id
+  nameWithType: Part.Id
+- uid: ROCrates.Models.Part.Id*
+  name: Id
+  href: api/ROCrates.Models.Part.html#ROCrates_Models_Part_Id_
+  commentId: Overload:ROCrates.Models.Part.Id
+  fullName: ROCrates.Models.Part.Id
+  nameWithType: Part.Id
+- uid: ROCrates.Models.Person
+  name: Person
+  href: api/ROCrates.Models.Person.html
+  commentId: T:ROCrates.Models.Person
+  fullName: ROCrates.Models.Person
+  nameWithType: Person
+- uid: ROCrates.Models.Person.#ctor
+  name: Person()
+  href: api/ROCrates.Models.Person.html#ROCrates_Models_Person__ctor
+  commentId: M:ROCrates.Models.Person.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.Person.Person()
+  fullName.vb: ROCrates.Models.Person.New()
+  nameWithType: Person.Person()
+  nameWithType.vb: Person.New()
+- uid: ROCrates.Models.Person.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: Person(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.Person.html#ROCrates_Models_Person__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.Person.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.Person.Person(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.Person.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: Person.Person(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: Person.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.Person.#ctor*
+  name: Person
+  href: api/ROCrates.Models.Person.html#ROCrates_Models_Person__ctor_
+  commentId: Overload:ROCrates.Models.Person.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.Person.Person
+  fullName.vb: ROCrates.Models.Person.New
+  nameWithType: Person.Person
+  nameWithType.vb: Person.New
+- uid: ROCrates.Models.Person.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.Person.html#ROCrates_Models_Person_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.Person.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.Person.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.Person.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: Person.Deserialize(string, ROCrate)
+  nameWithType.vb: Person.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.Person.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.Person.html#ROCrates_Models_Person_Deserialize_
+  commentId: Overload:ROCrates.Models.Person.Deserialize
+  fullName: ROCrates.Models.Person.Deserialize
+  nameWithType: Person.Deserialize
+- uid: ROCrates.Models.Person.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.Person.html#ROCrates_Models_Person_Serialize
+  commentId: M:ROCrates.Models.Person.Serialize
+  fullName: ROCrates.Models.Person.Serialize()
+  nameWithType: Person.Serialize()
+- uid: ROCrates.Models.Person.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.Person.html#ROCrates_Models_Person_Serialize_
+  commentId: Overload:ROCrates.Models.Person.Serialize
+  fullName: ROCrates.Models.Person.Serialize
+  nameWithType: Person.Serialize
+- uid: ROCrates.Models.Preview
+  name: Preview
+  href: api/ROCrates.Models.Preview.html
+  commentId: T:ROCrates.Models.Preview
+  fullName: ROCrates.Models.Preview
+  nameWithType: Preview
+- uid: ROCrates.Models.Preview._empty
+  name: _empty()
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__empty
+  commentId: M:ROCrates.Models.Preview._empty
+  fullName: ROCrates.Models.Preview._empty()
+  nameWithType: Preview._empty()
+- uid: ROCrates.Models.Preview._empty*
+  name: _empty
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__empty_
+  commentId: Overload:ROCrates.Models.Preview._empty
+  fullName: ROCrates.Models.Preview._empty
+  nameWithType: Preview._empty
+- uid: ROCrates.Models.Preview.#ctor
+  name: Preview()
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__ctor
+  commentId: M:ROCrates.Models.Preview.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.Preview.Preview()
+  fullName.vb: ROCrates.Models.Preview.New()
+  nameWithType: Preview.Preview()
+  nameWithType.vb: Preview.New()
+- uid: ROCrates.Models.Preview.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: Preview(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.Preview.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.Preview.Preview(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.Preview.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: Preview.Preview(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: Preview.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.Preview.#ctor*
+  name: Preview
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__ctor_
+  commentId: Overload:ROCrates.Models.Preview.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.Preview.Preview
+  fullName.vb: ROCrates.Models.Preview.New
+  nameWithType: Preview.Preview
+  nameWithType.vb: Preview.New
+- uid: ROCrates.Models.Preview.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.Preview.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.Preview.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.Preview.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: Preview.Deserialize(string, ROCrate)
+  nameWithType.vb: Preview.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.Preview.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview_Deserialize_
+  commentId: Overload:ROCrates.Models.Preview.Deserialize
+  fullName: ROCrates.Models.Preview.Deserialize
+  nameWithType: Preview.Deserialize
+- uid: ROCrates.Models.Preview.FileName
+  name: FileName
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview_FileName
+  commentId: F:ROCrates.Models.Preview.FileName
+  fullName: ROCrates.Models.Preview.FileName
+  nameWithType: Preview.FileName
+- uid: ROCrates.Models.Preview.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview_Serialize
+  commentId: M:ROCrates.Models.Preview.Serialize
+  fullName: ROCrates.Models.Preview.Serialize()
+  nameWithType: Preview.Serialize()
+- uid: ROCrates.Models.Preview.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview_Serialize_
+  commentId: Overload:ROCrates.Models.Preview.Serialize
+  fullName: ROCrates.Models.Preview.Serialize
+  nameWithType: Preview.Serialize
+- uid: ROCrates.Models.Preview.Write(System.String)
+  name: Write(string)
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview_Write_System_String_
+  commentId: M:ROCrates.Models.Preview.Write(System.String)
+  name.vb: Write(String)
+  fullName: ROCrates.Models.Preview.Write(string)
+  fullName.vb: ROCrates.Models.Preview.Write(String)
+  nameWithType: Preview.Write(string)
+  nameWithType.vb: Preview.Write(String)
+- uid: ROCrates.Models.Preview.Write*
+  name: Write
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview_Write_
+  commentId: Overload:ROCrates.Models.Preview.Write
+  fullName: ROCrates.Models.Preview.Write
+  nameWithType: Preview.Write
+- uid: ROCrates.Models.RootDataset
+  name: RootDataset
+  href: api/ROCrates.Models.RootDataset.html
+  commentId: T:ROCrates.Models.RootDataset
+  fullName: ROCrates.Models.RootDataset
+  nameWithType: RootDataset
+- uid: ROCrates.Models.RootDataset.#ctor
+  name: RootDataset()
+  href: api/ROCrates.Models.RootDataset.html#ROCrates_Models_RootDataset__ctor
+  commentId: M:ROCrates.Models.RootDataset.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.RootDataset.RootDataset()
+  fullName.vb: ROCrates.Models.RootDataset.New()
+  nameWithType: RootDataset.RootDataset()
+  nameWithType.vb: RootDataset.New()
+- uid: ROCrates.Models.RootDataset.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: RootDataset(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.RootDataset.html#ROCrates_Models_RootDataset__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.RootDataset.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.RootDataset.RootDataset(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.RootDataset.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: RootDataset.RootDataset(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: RootDataset.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.RootDataset.#ctor*
+  name: RootDataset
+  href: api/ROCrates.Models.RootDataset.html#ROCrates_Models_RootDataset__ctor_
+  commentId: Overload:ROCrates.Models.RootDataset.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.RootDataset.RootDataset
+  fullName.vb: ROCrates.Models.RootDataset.New
+  nameWithType: RootDataset.RootDataset
+  nameWithType.vb: RootDataset.New
+- uid: ROCrates.Models.RootDataset.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.RootDataset.html#ROCrates_Models_RootDataset_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.RootDataset.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.RootDataset.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.RootDataset.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: RootDataset.Deserialize(string, ROCrate)
+  nameWithType.vb: RootDataset.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.RootDataset.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.RootDataset.html#ROCrates_Models_RootDataset_Deserialize_
+  commentId: Overload:ROCrates.Models.RootDataset.Deserialize
+  fullName: ROCrates.Models.RootDataset.Deserialize
+  nameWithType: RootDataset.Deserialize
+- uid: ROCrates.Models.RootDataset.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.RootDataset.html#ROCrates_Models_RootDataset_Serialize
+  commentId: M:ROCrates.Models.RootDataset.Serialize
+  fullName: ROCrates.Models.RootDataset.Serialize()
+  nameWithType: RootDataset.Serialize()
+- uid: ROCrates.Models.RootDataset.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.RootDataset.html#ROCrates_Models_RootDataset_Serialize_
+  commentId: Overload:ROCrates.Models.RootDataset.Serialize
+  fullName: ROCrates.Models.RootDataset.Serialize
+  nameWithType: RootDataset.Serialize
+- uid: ROCrates.Models.SoftwareApplication
+  name: SoftwareApplication
+  href: api/ROCrates.Models.SoftwareApplication.html
+  commentId: T:ROCrates.Models.SoftwareApplication
+  fullName: ROCrates.Models.SoftwareApplication
+  nameWithType: SoftwareApplication
+- uid: ROCrates.Models.SoftwareApplication.#ctor
+  name: SoftwareApplication()
+  href: api/ROCrates.Models.SoftwareApplication.html#ROCrates_Models_SoftwareApplication__ctor
+  commentId: M:ROCrates.Models.SoftwareApplication.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.SoftwareApplication.SoftwareApplication()
+  fullName.vb: ROCrates.Models.SoftwareApplication.New()
+  nameWithType: SoftwareApplication.SoftwareApplication()
+  nameWithType.vb: SoftwareApplication.New()
+- uid: ROCrates.Models.SoftwareApplication.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: SoftwareApplication(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.SoftwareApplication.html#ROCrates_Models_SoftwareApplication__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.SoftwareApplication.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.SoftwareApplication.SoftwareApplication(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.SoftwareApplication.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: SoftwareApplication.SoftwareApplication(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: SoftwareApplication.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.SoftwareApplication.#ctor*
+  name: SoftwareApplication
+  href: api/ROCrates.Models.SoftwareApplication.html#ROCrates_Models_SoftwareApplication__ctor_
+  commentId: Overload:ROCrates.Models.SoftwareApplication.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.SoftwareApplication.SoftwareApplication
+  fullName.vb: ROCrates.Models.SoftwareApplication.New
+  nameWithType: SoftwareApplication.SoftwareApplication
+  nameWithType.vb: SoftwareApplication.New
+- uid: ROCrates.Models.SoftwareApplication.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.SoftwareApplication.html#ROCrates_Models_SoftwareApplication_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.SoftwareApplication.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.SoftwareApplication.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.SoftwareApplication.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: SoftwareApplication.Deserialize(string, ROCrate)
+  nameWithType.vb: SoftwareApplication.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.SoftwareApplication.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.SoftwareApplication.html#ROCrates_Models_SoftwareApplication_Deserialize_
+  commentId: Overload:ROCrates.Models.SoftwareApplication.Deserialize
+  fullName: ROCrates.Models.SoftwareApplication.Deserialize
+  nameWithType: SoftwareApplication.Deserialize
+- uid: ROCrates.Models.SoftwareApplication.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.SoftwareApplication.html#ROCrates_Models_SoftwareApplication_Serialize
+  commentId: M:ROCrates.Models.SoftwareApplication.Serialize
+  fullName: ROCrates.Models.SoftwareApplication.Serialize()
+  nameWithType: SoftwareApplication.Serialize()
+- uid: ROCrates.Models.SoftwareApplication.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.SoftwareApplication.html#ROCrates_Models_SoftwareApplication_Serialize_
+  commentId: Overload:ROCrates.Models.SoftwareApplication.Serialize
+  fullName: ROCrates.Models.SoftwareApplication.Serialize
+  nameWithType: SoftwareApplication.Serialize
+- uid: ROCrates.Models.TestDefinition
+  name: TestDefinition
+  href: api/ROCrates.Models.TestDefinition.html
+  commentId: T:ROCrates.Models.TestDefinition
+  fullName: ROCrates.Models.TestDefinition
+  nameWithType: TestDefinition
+- uid: ROCrates.Models.TestDefinition.#ctor
+  name: TestDefinition()
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition__ctor
+  commentId: M:ROCrates.Models.TestDefinition.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.TestDefinition.TestDefinition()
+  fullName.vb: ROCrates.Models.TestDefinition.New()
+  nameWithType: TestDefinition.TestDefinition()
+  nameWithType.vb: TestDefinition.New()
+- uid: ROCrates.Models.TestDefinition.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: TestDefinition(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.TestDefinition.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.TestDefinition.TestDefinition(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.TestDefinition.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: TestDefinition.TestDefinition(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: TestDefinition.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.TestDefinition.#ctor*
+  name: TestDefinition
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition__ctor_
+  commentId: Overload:ROCrates.Models.TestDefinition.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.TestDefinition.TestDefinition
+  fullName.vb: ROCrates.Models.TestDefinition.New
+  nameWithType: TestDefinition.TestDefinition
+  nameWithType.vb: TestDefinition.New
+- uid: ROCrates.Models.TestDefinition.ConformsTo
+  name: ConformsTo
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition_ConformsTo
+  commentId: P:ROCrates.Models.TestDefinition.ConformsTo
+  fullName: ROCrates.Models.TestDefinition.ConformsTo
+  nameWithType: TestDefinition.ConformsTo
+- uid: ROCrates.Models.TestDefinition.ConformsTo*
+  name: ConformsTo
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition_ConformsTo_
+  commentId: Overload:ROCrates.Models.TestDefinition.ConformsTo
+  fullName: ROCrates.Models.TestDefinition.ConformsTo
+  nameWithType: TestDefinition.ConformsTo
+- uid: ROCrates.Models.TestDefinition.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.TestDefinition.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.TestDefinition.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.TestDefinition.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: TestDefinition.Deserialize(string, ROCrate)
+  nameWithType.vb: TestDefinition.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.TestDefinition.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition_Deserialize_
+  commentId: Overload:ROCrates.Models.TestDefinition.Deserialize
+  fullName: ROCrates.Models.TestDefinition.Deserialize
+  nameWithType: TestDefinition.Deserialize
+- uid: ROCrates.Models.TestDefinition.EngineVersion
+  name: EngineVersion
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition_EngineVersion
+  commentId: P:ROCrates.Models.TestDefinition.EngineVersion
+  fullName: ROCrates.Models.TestDefinition.EngineVersion
+  nameWithType: TestDefinition.EngineVersion
+- uid: ROCrates.Models.TestDefinition.EngineVersion*
+  name: EngineVersion
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition_EngineVersion_
+  commentId: Overload:ROCrates.Models.TestDefinition.EngineVersion
+  fullName: ROCrates.Models.TestDefinition.EngineVersion
+  nameWithType: TestDefinition.EngineVersion
+- uid: ROCrates.Models.TestDefinition.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition_Serialize
+  commentId: M:ROCrates.Models.TestDefinition.Serialize
+  fullName: ROCrates.Models.TestDefinition.Serialize()
+  nameWithType: TestDefinition.Serialize()
+- uid: ROCrates.Models.TestDefinition.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.TestDefinition.html#ROCrates_Models_TestDefinition_Serialize_
+  commentId: Overload:ROCrates.Models.TestDefinition.Serialize
+  fullName: ROCrates.Models.TestDefinition.Serialize
+  nameWithType: TestDefinition.Serialize
+- uid: ROCrates.Models.TestInstance
+  name: TestInstance
+  href: api/ROCrates.Models.TestInstance.html
+  commentId: T:ROCrates.Models.TestInstance
+  fullName: ROCrates.Models.TestInstance
+  nameWithType: TestInstance
+- uid: ROCrates.Models.TestInstance.#ctor
+  name: TestInstance()
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance__ctor
+  commentId: M:ROCrates.Models.TestInstance.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.TestInstance.TestInstance()
+  fullName.vb: ROCrates.Models.TestInstance.New()
+  nameWithType: TestInstance.TestInstance()
+  nameWithType.vb: TestInstance.New()
+- uid: ROCrates.Models.TestInstance.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: TestInstance(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.TestInstance.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.TestInstance.TestInstance(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.TestInstance.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: TestInstance.TestInstance(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: TestInstance.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.TestInstance.#ctor*
+  name: TestInstance
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance__ctor_
+  commentId: Overload:ROCrates.Models.TestInstance.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.TestInstance.TestInstance
+  fullName.vb: ROCrates.Models.TestInstance.New
+  nameWithType: TestInstance.TestInstance
+  nameWithType.vb: TestInstance.New
+- uid: ROCrates.Models.TestInstance.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.TestInstance.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.TestInstance.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.TestInstance.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: TestInstance.Deserialize(string, ROCrate)
+  nameWithType.vb: TestInstance.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.TestInstance.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Deserialize_
+  commentId: Overload:ROCrates.Models.TestInstance.Deserialize
+  fullName: ROCrates.Models.TestInstance.Deserialize
+  nameWithType: TestInstance.Deserialize
+- uid: ROCrates.Models.TestInstance.Name
+  name: Name
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Name
+  commentId: P:ROCrates.Models.TestInstance.Name
+  fullName: ROCrates.Models.TestInstance.Name
+  nameWithType: TestInstance.Name
+- uid: ROCrates.Models.TestInstance.Name*
+  name: Name
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Name_
+  commentId: Overload:ROCrates.Models.TestInstance.Name
+  fullName: ROCrates.Models.TestInstance.Name
+  nameWithType: TestInstance.Name
+- uid: ROCrates.Models.TestInstance.Resource
+  name: Resource
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Resource
+  commentId: P:ROCrates.Models.TestInstance.Resource
+  fullName: ROCrates.Models.TestInstance.Resource
+  nameWithType: TestInstance.Resource
+- uid: ROCrates.Models.TestInstance.Resource*
+  name: Resource
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Resource_
+  commentId: Overload:ROCrates.Models.TestInstance.Resource
+  fullName: ROCrates.Models.TestInstance.Resource
+  nameWithType: TestInstance.Resource
+- uid: ROCrates.Models.TestInstance.RunsOn
+  name: RunsOn
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_RunsOn
+  commentId: P:ROCrates.Models.TestInstance.RunsOn
+  fullName: ROCrates.Models.TestInstance.RunsOn
+  nameWithType: TestInstance.RunsOn
+- uid: ROCrates.Models.TestInstance.RunsOn*
+  name: RunsOn
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_RunsOn_
+  commentId: Overload:ROCrates.Models.TestInstance.RunsOn
+  fullName: ROCrates.Models.TestInstance.RunsOn
+  nameWithType: TestInstance.RunsOn
+- uid: ROCrates.Models.TestInstance.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Serialize
+  commentId: M:ROCrates.Models.TestInstance.Serialize
+  fullName: ROCrates.Models.TestInstance.Serialize()
+  nameWithType: TestInstance.Serialize()
+- uid: ROCrates.Models.TestInstance.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Serialize_
+  commentId: Overload:ROCrates.Models.TestInstance.Serialize
+  fullName: ROCrates.Models.TestInstance.Serialize
+  nameWithType: TestInstance.Serialize
+- uid: ROCrates.Models.TestInstance.Url
+  name: Url
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Url
+  commentId: P:ROCrates.Models.TestInstance.Url
+  fullName: ROCrates.Models.TestInstance.Url
+  nameWithType: TestInstance.Url
+- uid: ROCrates.Models.TestInstance.Url*
+  name: Url
+  href: api/ROCrates.Models.TestInstance.html#ROCrates_Models_TestInstance_Url_
+  commentId: Overload:ROCrates.Models.TestInstance.Url
+  fullName: ROCrates.Models.TestInstance.Url
+  nameWithType: TestInstance.Url
+- uid: ROCrates.Models.TestService
+  name: TestService
+  href: api/ROCrates.Models.TestService.html
+  commentId: T:ROCrates.Models.TestService
+  fullName: ROCrates.Models.TestService
+  nameWithType: TestService
+- uid: ROCrates.Models.TestService.#ctor
+  name: TestService()
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService__ctor
+  commentId: M:ROCrates.Models.TestService.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.TestService.TestService()
+  fullName.vb: ROCrates.Models.TestService.New()
+  nameWithType: TestService.TestService()
+  nameWithType.vb: TestService.New()
+- uid: ROCrates.Models.TestService.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: TestService(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.TestService.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.TestService.TestService(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.TestService.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: TestService.TestService(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: TestService.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.TestService.#ctor*
+  name: TestService
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService__ctor_
+  commentId: Overload:ROCrates.Models.TestService.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.TestService.TestService
+  fullName.vb: ROCrates.Models.TestService.New
+  nameWithType: TestService.TestService
+  nameWithType.vb: TestService.New
+- uid: ROCrates.Models.TestService.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.TestService.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.TestService.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.TestService.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: TestService.Deserialize(string, ROCrate)
+  nameWithType.vb: TestService.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.TestService.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService_Deserialize_
+  commentId: Overload:ROCrates.Models.TestService.Deserialize
+  fullName: ROCrates.Models.TestService.Deserialize
+  nameWithType: TestService.Deserialize
+- uid: ROCrates.Models.TestService.Name
+  name: Name
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService_Name
+  commentId: P:ROCrates.Models.TestService.Name
+  fullName: ROCrates.Models.TestService.Name
+  nameWithType: TestService.Name
+- uid: ROCrates.Models.TestService.Name*
+  name: Name
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService_Name_
+  commentId: Overload:ROCrates.Models.TestService.Name
+  fullName: ROCrates.Models.TestService.Name
+  nameWithType: TestService.Name
+- uid: ROCrates.Models.TestService.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService_Serialize
+  commentId: M:ROCrates.Models.TestService.Serialize
+  fullName: ROCrates.Models.TestService.Serialize()
+  nameWithType: TestService.Serialize()
+- uid: ROCrates.Models.TestService.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService_Serialize_
+  commentId: Overload:ROCrates.Models.TestService.Serialize
+  fullName: ROCrates.Models.TestService.Serialize
+  nameWithType: TestService.Serialize
+- uid: ROCrates.Models.TestService.Url
+  name: Url
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService_Url
+  commentId: P:ROCrates.Models.TestService.Url
+  fullName: ROCrates.Models.TestService.Url
+  nameWithType: TestService.Url
+- uid: ROCrates.Models.TestService.Url*
+  name: Url
+  href: api/ROCrates.Models.TestService.html#ROCrates_Models_TestService_Url_
+  commentId: Overload:ROCrates.Models.TestService.Url
+  fullName: ROCrates.Models.TestService.Url
+  nameWithType: TestService.Url
+- uid: ROCrates.Models.TestSuite
+  name: TestSuite
+  href: api/ROCrates.Models.TestSuite.html
+  commentId: T:ROCrates.Models.TestSuite
+  fullName: ROCrates.Models.TestSuite
+  nameWithType: TestSuite
+- uid: ROCrates.Models.TestSuite.#ctor
+  name: TestSuite()
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite__ctor
+  commentId: M:ROCrates.Models.TestSuite.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.TestSuite.TestSuite()
+  fullName.vb: ROCrates.Models.TestSuite.New()
+  nameWithType: TestSuite.TestSuite()
+  nameWithType.vb: TestSuite.New()
+- uid: ROCrates.Models.TestSuite.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name: TestSuite(ROCrate?, string?, JsonObject?)
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.Models.TestSuite.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: New(ROCrate, String, JsonObject)
+  fullName: ROCrates.Models.TestSuite.TestSuite(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.Models.TestSuite.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: TestSuite.TestSuite(ROCrate?, string?, JsonObject?)
+  nameWithType.vb: TestSuite.New(ROCrate, String, JsonObject)
+- uid: ROCrates.Models.TestSuite.#ctor*
+  name: TestSuite
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite__ctor_
+  commentId: Overload:ROCrates.Models.TestSuite.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.TestSuite.TestSuite
+  fullName.vb: ROCrates.Models.TestSuite.New
+  nameWithType: TestSuite.TestSuite
+  nameWithType.vb: TestSuite.New
+- uid: ROCrates.Models.TestSuite.ConformsTo
+  name: ConformsTo
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_ConformsTo
+  commentId: P:ROCrates.Models.TestSuite.ConformsTo
+  fullName: ROCrates.Models.TestSuite.ConformsTo
+  nameWithType: TestSuite.ConformsTo
+- uid: ROCrates.Models.TestSuite.ConformsTo*
+  name: ConformsTo
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_ConformsTo_
+  commentId: Overload:ROCrates.Models.TestSuite.ConformsTo
+  fullName: ROCrates.Models.TestSuite.ConformsTo
+  nameWithType: TestSuite.ConformsTo
+- uid: ROCrates.Models.TestSuite.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.TestSuite.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.TestSuite.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.TestSuite.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: TestSuite.Deserialize(string, ROCrate)
+  nameWithType.vb: TestSuite.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.TestSuite.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_Deserialize_
+  commentId: Overload:ROCrates.Models.TestSuite.Deserialize
+  fullName: ROCrates.Models.TestSuite.Deserialize
+  nameWithType: TestSuite.Deserialize
+- uid: ROCrates.Models.TestSuite.EngineVersion
+  name: EngineVersion
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_EngineVersion
+  commentId: P:ROCrates.Models.TestSuite.EngineVersion
+  fullName: ROCrates.Models.TestSuite.EngineVersion
+  nameWithType: TestSuite.EngineVersion
+- uid: ROCrates.Models.TestSuite.EngineVersion*
+  name: EngineVersion
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_EngineVersion_
+  commentId: Overload:ROCrates.Models.TestSuite.EngineVersion
+  fullName: ROCrates.Models.TestSuite.EngineVersion
+  nameWithType: TestSuite.EngineVersion
+- uid: ROCrates.Models.TestSuite.Name
+  name: Name
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_Name
+  commentId: P:ROCrates.Models.TestSuite.Name
+  fullName: ROCrates.Models.TestSuite.Name
+  nameWithType: TestSuite.Name
+- uid: ROCrates.Models.TestSuite.Name*
+  name: Name
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_Name_
+  commentId: Overload:ROCrates.Models.TestSuite.Name
+  fullName: ROCrates.Models.TestSuite.Name
+  nameWithType: TestSuite.Name
+- uid: ROCrates.Models.TestSuite.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_Serialize
+  commentId: M:ROCrates.Models.TestSuite.Serialize
+  fullName: ROCrates.Models.TestSuite.Serialize()
+  nameWithType: TestSuite.Serialize()
+- uid: ROCrates.Models.TestSuite.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.TestSuite.html#ROCrates_Models_TestSuite_Serialize_
+  commentId: Overload:ROCrates.Models.TestSuite.Serialize
+  fullName: ROCrates.Models.TestSuite.Serialize
+  nameWithType: TestSuite.Serialize
+- uid: ROCrates.Models.Workflow
+  name: Workflow
+  href: api/ROCrates.Models.Workflow.html
+  commentId: T:ROCrates.Models.Workflow
+  fullName: ROCrates.Models.Workflow
+  nameWithType: Workflow
+- uid: ROCrates.Models.Workflow.#ctor
+  name: Workflow()
+  href: api/ROCrates.Models.Workflow.html#ROCrates_Models_Workflow__ctor
+  commentId: M:ROCrates.Models.Workflow.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.Workflow.Workflow()
+  fullName.vb: ROCrates.Models.Workflow.New()
+  nameWithType: Workflow.Workflow()
+  nameWithType.vb: Workflow.New()
+- uid: ROCrates.Models.Workflow.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: Workflow(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.Workflow.html#ROCrates_Models_Workflow__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.Workflow.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.Workflow.Workflow(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.Workflow.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: Workflow.Workflow(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: Workflow.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.Workflow.#ctor*
+  name: Workflow
+  href: api/ROCrates.Models.Workflow.html#ROCrates_Models_Workflow__ctor_
+  commentId: Overload:ROCrates.Models.Workflow.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.Workflow.Workflow
+  fullName.vb: ROCrates.Models.Workflow.New
+  nameWithType: Workflow.Workflow
+  nameWithType.vb: Workflow.New
+- uid: ROCrates.Models.Workflow.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.Workflow.html#ROCrates_Models_Workflow_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.Workflow.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.Workflow.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.Workflow.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: Workflow.Deserialize(string, ROCrate)
+  nameWithType.vb: Workflow.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.Workflow.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.Workflow.html#ROCrates_Models_Workflow_Deserialize_
+  commentId: Overload:ROCrates.Models.Workflow.Deserialize
+  fullName: ROCrates.Models.Workflow.Deserialize
+  nameWithType: Workflow.Deserialize
+- uid: ROCrates.Models.Workflow.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.Workflow.html#ROCrates_Models_Workflow_Serialize
+  commentId: M:ROCrates.Models.Workflow.Serialize
+  fullName: ROCrates.Models.Workflow.Serialize()
+  nameWithType: Workflow.Serialize()
+- uid: ROCrates.Models.Workflow.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.Workflow.html#ROCrates_Models_Workflow_Serialize_
+  commentId: Overload:ROCrates.Models.Workflow.Serialize
+  fullName: ROCrates.Models.Workflow.Serialize
+  nameWithType: Workflow.Serialize
+- uid: ROCrates.Models.WorkflowDescription
+  name: WorkflowDescription
+  href: api/ROCrates.Models.WorkflowDescription.html
+  commentId: T:ROCrates.Models.WorkflowDescription
+  fullName: ROCrates.Models.WorkflowDescription
+  nameWithType: WorkflowDescription
+- uid: ROCrates.Models.WorkflowDescription.#ctor
+  name: WorkflowDescription()
+  href: api/ROCrates.Models.WorkflowDescription.html#ROCrates_Models_WorkflowDescription__ctor
+  commentId: M:ROCrates.Models.WorkflowDescription.#ctor
+  name.vb: New()
+  fullName: ROCrates.Models.WorkflowDescription.WorkflowDescription()
+  fullName.vb: ROCrates.Models.WorkflowDescription.New()
+  nameWithType: WorkflowDescription.WorkflowDescription()
+  nameWithType.vb: WorkflowDescription.New()
+- uid: ROCrates.Models.WorkflowDescription.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: WorkflowDescription(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.Models.WorkflowDescription.html#ROCrates_Models_WorkflowDescription__ctor_ROCrates_ROCrate_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.Models.WorkflowDescription.#ctor(ROCrates.ROCrate,System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.Models.WorkflowDescription.WorkflowDescription(ROCrates.ROCrate?, string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.Models.WorkflowDescription.New(ROCrates.ROCrate, String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: WorkflowDescription.WorkflowDescription(ROCrate?, string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: WorkflowDescription.New(ROCrate, String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.Models.WorkflowDescription.#ctor*
+  name: WorkflowDescription
+  href: api/ROCrates.Models.WorkflowDescription.html#ROCrates_Models_WorkflowDescription__ctor_
+  commentId: Overload:ROCrates.Models.WorkflowDescription.#ctor
+  name.vb: New
+  fullName: ROCrates.Models.WorkflowDescription.WorkflowDescription
+  fullName.vb: ROCrates.Models.WorkflowDescription.New
+  nameWithType: WorkflowDescription.WorkflowDescription
+  nameWithType.vb: WorkflowDescription.New
+- uid: ROCrates.Models.WorkflowDescription.Deserialize(System.String,ROCrates.ROCrate)
+  name: Deserialize(string, ROCrate)
+  href: api/ROCrates.Models.WorkflowDescription.html#ROCrates_Models_WorkflowDescription_Deserialize_System_String_ROCrates_ROCrate_
+  commentId: M:ROCrates.Models.WorkflowDescription.Deserialize(System.String,ROCrates.ROCrate)
+  name.vb: Deserialize(String, ROCrate)
+  fullName: ROCrates.Models.WorkflowDescription.Deserialize(string, ROCrates.ROCrate)
+  fullName.vb: ROCrates.Models.WorkflowDescription.Deserialize(String, ROCrates.ROCrate)
+  nameWithType: WorkflowDescription.Deserialize(string, ROCrate)
+  nameWithType.vb: WorkflowDescription.Deserialize(String, ROCrate)
+- uid: ROCrates.Models.WorkflowDescription.Deserialize*
+  name: Deserialize
+  href: api/ROCrates.Models.WorkflowDescription.html#ROCrates_Models_WorkflowDescription_Deserialize_
+  commentId: Overload:ROCrates.Models.WorkflowDescription.Deserialize
+  fullName: ROCrates.Models.WorkflowDescription.Deserialize
+  nameWithType: WorkflowDescription.Deserialize
+- uid: ROCrates.Models.WorkflowDescription.Serialize
+  name: Serialize()
+  href: api/ROCrates.Models.WorkflowDescription.html#ROCrates_Models_WorkflowDescription_Serialize
+  commentId: M:ROCrates.Models.WorkflowDescription.Serialize
+  fullName: ROCrates.Models.WorkflowDescription.Serialize()
+  nameWithType: WorkflowDescription.Serialize()
+- uid: ROCrates.Models.WorkflowDescription.Serialize*
+  name: Serialize
+  href: api/ROCrates.Models.WorkflowDescription.html#ROCrates_Models_WorkflowDescription_Serialize_
+  commentId: Overload:ROCrates.Models.WorkflowDescription.Serialize
+  fullName: ROCrates.Models.WorkflowDescription.Serialize
+  nameWithType: WorkflowDescription.Serialize
+- uid: ROCrates.ROCrate
+  name: ROCrate
+  href: api/ROCrates.ROCrate.html
+  commentId: T:ROCrates.ROCrate
+  fullName: ROCrates.ROCrate
+  nameWithType: ROCrate
+- uid: ROCrates.ROCrate.#ctor
+  name: ROCrate()
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate__ctor
+  commentId: M:ROCrates.ROCrate.#ctor
+  name.vb: New()
+  fullName: ROCrates.ROCrate.ROCrate()
+  fullName.vb: ROCrates.ROCrate.New()
+  nameWithType: ROCrate.ROCrate()
+  nameWithType.vb: ROCrate.New()
+- uid: ROCrates.ROCrate.#ctor*
+  name: ROCrate
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate__ctor_
+  commentId: Overload:ROCrates.ROCrate.#ctor
+  name.vb: New
+  fullName: ROCrates.ROCrate.ROCrate
+  fullName.vb: ROCrates.ROCrate.New
+  nameWithType: ROCrate.ROCrate
+  nameWithType.vb: ROCrate.New
+- uid: ROCrates.ROCrate.Add(ROCrates.Models.Entity[])
+  name: Add(params Entity[])
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Add_ROCrates_Models_Entity___
+  commentId: M:ROCrates.ROCrate.Add(ROCrates.Models.Entity[])
+  name.vb: Add(ParamArray Entity())
+  fullName: ROCrates.ROCrate.Add(params ROCrates.Models.Entity[])
+  fullName.vb: ROCrates.ROCrate.Add(ParamArray ROCrates.Models.Entity())
+  nameWithType: ROCrate.Add(params Entity[])
+  nameWithType.vb: ROCrate.Add(ParamArray Entity())
+- uid: ROCrates.ROCrate.Add*
+  name: Add
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Add_
+  commentId: Overload:ROCrates.ROCrate.Add
+  fullName: ROCrates.ROCrate.Add
+  nameWithType: ROCrate.Add
+- uid: ROCrates.ROCrate.AddDataset(System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: AddDataset(string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddDataset_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.ROCrate.AddDataset(System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: AddDataset(String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.ROCrate.AddDataset(string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.ROCrate.AddDataset(String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: ROCrate.AddDataset(string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: ROCrate.AddDataset(String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.ROCrate.AddDataset*
+  name: AddDataset
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddDataset_
+  commentId: Overload:ROCrates.ROCrate.AddDataset
+  fullName: ROCrates.ROCrate.AddDataset
+  nameWithType: ROCrate.AddDataset
+- uid: ROCrates.ROCrate.AddFile(System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: AddFile(string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddFile_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.ROCrate.AddFile(System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: AddFile(String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.ROCrate.AddFile(string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.ROCrate.AddFile(String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: ROCrate.AddFile(string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: ROCrate.AddFile(String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.ROCrate.AddFile*
+  name: AddFile
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddFile_
+  commentId: Overload:ROCrates.ROCrate.AddFile
+  fullName: ROCrates.ROCrate.AddFile
+  nameWithType: ROCrate.AddFile
+- uid: ROCrates.ROCrate.AddPerson(System.String,System.Text.Json.Nodes.JsonObject)
+  name: AddPerson(string?, JsonObject?)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddPerson_System_String_System_Text_Json_Nodes_JsonObject_
+  commentId: M:ROCrates.ROCrate.AddPerson(System.String,System.Text.Json.Nodes.JsonObject)
+  name.vb: AddPerson(String, JsonObject)
+  fullName: ROCrates.ROCrate.AddPerson(string?, System.Text.Json.Nodes.JsonObject?)
+  fullName.vb: ROCrates.ROCrate.AddPerson(String, System.Text.Json.Nodes.JsonObject)
+  nameWithType: ROCrate.AddPerson(string?, JsonObject?)
+  nameWithType.vb: ROCrate.AddPerson(String, JsonObject)
+- uid: ROCrates.ROCrate.AddPerson*
+  name: AddPerson
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddPerson_
+  commentId: Overload:ROCrates.ROCrate.AddPerson
+  fullName: ROCrates.ROCrate.AddPerson
+  nameWithType: ROCrate.AddPerson
+- uid: ROCrates.ROCrate.AddTestDefinition(System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: AddTestDefinition(string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddTestDefinition_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.ROCrate.AddTestDefinition(System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: AddTestDefinition(String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.ROCrate.AddTestDefinition(string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.ROCrate.AddTestDefinition(String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: ROCrate.AddTestDefinition(string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: ROCrate.AddTestDefinition(String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.ROCrate.AddTestDefinition*
+  name: AddTestDefinition
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddTestDefinition_
+  commentId: Overload:ROCrates.ROCrate.AddTestDefinition
+  fullName: ROCrates.ROCrate.AddTestDefinition
+  nameWithType: ROCrate.AddTestDefinition
+- uid: ROCrates.ROCrate.AddTestInstance(ROCrates.Models.TestSuite,System.String,System.String,ROCrates.Models.TestService,System.String)
+  name: AddTestInstance(TestSuite, string, string, TestService?, string?)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddTestInstance_ROCrates_Models_TestSuite_System_String_System_String_ROCrates_Models_TestService_System_String_
+  commentId: M:ROCrates.ROCrate.AddTestInstance(ROCrates.Models.TestSuite,System.String,System.String,ROCrates.Models.TestService,System.String)
+  name.vb: AddTestInstance(TestSuite, String, String, TestService, String)
+  fullName: ROCrates.ROCrate.AddTestInstance(ROCrates.Models.TestSuite, string, string, ROCrates.Models.TestService?, string?)
+  fullName.vb: ROCrates.ROCrate.AddTestInstance(ROCrates.Models.TestSuite, String, String, ROCrates.Models.TestService, String)
+  nameWithType: ROCrate.AddTestInstance(TestSuite, string, string, TestService?, string?)
+  nameWithType.vb: ROCrate.AddTestInstance(TestSuite, String, String, TestService, String)
+- uid: ROCrates.ROCrate.AddTestInstance*
+  name: AddTestInstance
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddTestInstance_
+  commentId: Overload:ROCrates.ROCrate.AddTestInstance
+  fullName: ROCrates.ROCrate.AddTestInstance
+  nameWithType: ROCrate.AddTestInstance
+- uid: ROCrates.ROCrate.AddTestSuite(System.String,System.String,ROCrates.Models.Entity)
+  name: AddTestSuite(string?, string?, Entity?)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddTestSuite_System_String_System_String_ROCrates_Models_Entity_
+  commentId: M:ROCrates.ROCrate.AddTestSuite(System.String,System.String,ROCrates.Models.Entity)
+  name.vb: AddTestSuite(String, String, Entity)
+  fullName: ROCrates.ROCrate.AddTestSuite(string?, string?, ROCrates.Models.Entity?)
+  fullName.vb: ROCrates.ROCrate.AddTestSuite(String, String, ROCrates.Models.Entity)
+  nameWithType: ROCrate.AddTestSuite(string?, string?, Entity?)
+  nameWithType.vb: ROCrate.AddTestSuite(String, String, Entity)
+- uid: ROCrates.ROCrate.AddTestSuite*
+  name: AddTestSuite
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddTestSuite_
+  commentId: Overload:ROCrates.ROCrate.AddTestSuite
+  fullName: ROCrates.ROCrate.AddTestSuite
+  nameWithType: ROCrate.AddTestSuite
+- uid: ROCrates.ROCrate.AddWorkflow(System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name: AddWorkflow(string?, JsonObject?, string?, string?, bool, bool)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddWorkflow_System_String_System_Text_Json_Nodes_JsonObject_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:ROCrates.ROCrate.AddWorkflow(System.String,System.Text.Json.Nodes.JsonObject,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: AddWorkflow(String, JsonObject, String, String, Boolean, Boolean)
+  fullName: ROCrates.ROCrate.AddWorkflow(string?, System.Text.Json.Nodes.JsonObject?, string?, string?, bool, bool)
+  fullName.vb: ROCrates.ROCrate.AddWorkflow(String, System.Text.Json.Nodes.JsonObject, String, String, Boolean, Boolean)
+  nameWithType: ROCrate.AddWorkflow(string?, JsonObject?, string?, string?, bool, bool)
+  nameWithType.vb: ROCrate.AddWorkflow(String, JsonObject, String, String, Boolean, Boolean)
+- uid: ROCrates.ROCrate.AddWorkflow*
+  name: AddWorkflow
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_AddWorkflow_
+  commentId: Overload:ROCrates.ROCrate.AddWorkflow
+  fullName: ROCrates.ROCrate.AddWorkflow
+  nameWithType: ROCrate.AddWorkflow
+- uid: ROCrates.ROCrate.Convert(System.String)
+  name: Convert(string)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Convert_System_String_
+  commentId: M:ROCrates.ROCrate.Convert(System.String)
+  name.vb: Convert(String)
+  fullName: ROCrates.ROCrate.Convert(string)
+  fullName.vb: ROCrates.ROCrate.Convert(String)
+  nameWithType: ROCrate.Convert(string)
+  nameWithType.vb: ROCrate.Convert(String)
+- uid: ROCrates.ROCrate.Convert*
+  name: Convert
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Convert_
+  commentId: Overload:ROCrates.ROCrate.Convert
+  fullName: ROCrates.ROCrate.Convert
+  nameWithType: ROCrate.Convert
+- uid: ROCrates.ROCrate.Entities
+  name: Entities
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Entities
+  commentId: F:ROCrates.ROCrate.Entities
+  fullName: ROCrates.ROCrate.Entities
+  nameWithType: ROCrate.Entities
+- uid: ROCrates.ROCrate.Initialise(System.String)
+  name: Initialise(string)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Initialise_System_String_
+  commentId: M:ROCrates.ROCrate.Initialise(System.String)
+  name.vb: Initialise(String)
+  fullName: ROCrates.ROCrate.Initialise(string)
+  fullName.vb: ROCrates.ROCrate.Initialise(String)
+  nameWithType: ROCrate.Initialise(string)
+  nameWithType.vb: ROCrate.Initialise(String)
+- uid: ROCrates.ROCrate.Initialise*
+  name: Initialise
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Initialise_
+  commentId: Overload:ROCrates.ROCrate.Initialise
+  fullName: ROCrates.ROCrate.Initialise
+  nameWithType: ROCrate.Initialise
+- uid: ROCrates.ROCrate.Metadata
+  name: Metadata
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Metadata
+  commentId: F:ROCrates.ROCrate.Metadata
+  fullName: ROCrates.ROCrate.Metadata
+  nameWithType: ROCrate.Metadata
+- uid: ROCrates.ROCrate.Preview
+  name: Preview
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Preview
+  commentId: F:ROCrates.ROCrate.Preview
+  fullName: ROCrates.ROCrate.Preview
+  nameWithType: ROCrate.Preview
+- uid: ROCrates.ROCrate.ResolveId(System.String)
+  name: ResolveId(string)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_ResolveId_System_String_
+  commentId: M:ROCrates.ROCrate.ResolveId(System.String)
+  name.vb: ResolveId(String)
+  fullName: ROCrates.ROCrate.ResolveId(string)
+  fullName.vb: ROCrates.ROCrate.ResolveId(String)
+  nameWithType: ROCrate.ResolveId(string)
+  nameWithType.vb: ROCrate.ResolveId(String)
+- uid: ROCrates.ROCrate.ResolveId*
+  name: ResolveId
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_ResolveId_
+  commentId: Overload:ROCrates.ROCrate.ResolveId
+  fullName: ROCrates.ROCrate.ResolveId
+  nameWithType: ROCrate.ResolveId
+- uid: ROCrates.ROCrate.RootDataset
+  name: RootDataset
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_RootDataset
+  commentId: F:ROCrates.ROCrate.RootDataset
+  fullName: ROCrates.ROCrate.RootDataset
+  nameWithType: ROCrate.RootDataset
+- uid: ROCrates.ROCrate.Save(System.String,System.Boolean)
+  name: Save(string?, bool)
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Save_System_String_System_Boolean_
+  commentId: M:ROCrates.ROCrate.Save(System.String,System.Boolean)
+  name.vb: Save(String, Boolean)
+  fullName: ROCrates.ROCrate.Save(string?, bool)
+  fullName.vb: ROCrates.ROCrate.Save(String, Boolean)
+  nameWithType: ROCrate.Save(string?, bool)
+  nameWithType.vb: ROCrate.Save(String, Boolean)
+- uid: ROCrates.ROCrate.Save*
+  name: Save
+  href: api/ROCrates.ROCrate.html#ROCrates_ROCrate_Save_
+  commentId: Overload:ROCrates.ROCrate.Save
+  fullName: ROCrates.ROCrate.Save
+  nameWithType: ROCrate.Save
+- uid: ROCrates.TestingExtraTerms
+  name: TestingExtraTerms
+  href: api/ROCrates.TestingExtraTerms.html
+  commentId: T:ROCrates.TestingExtraTerms
+  fullName: ROCrates.TestingExtraTerms
+  nameWithType: TestingExtraTerms
+- uid: ROCrates.TestingExtraTerms.#ctor
+  name: TestingExtraTerms()
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms__ctor
+  commentId: M:ROCrates.TestingExtraTerms.#ctor
+  name.vb: New()
+  fullName: ROCrates.TestingExtraTerms.TestingExtraTerms()
+  fullName.vb: ROCrates.TestingExtraTerms.New()
+  nameWithType: TestingExtraTerms.TestingExtraTerms()
+  nameWithType.vb: TestingExtraTerms.New()
+- uid: ROCrates.TestingExtraTerms.#ctor*
+  name: TestingExtraTerms
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms__ctor_
+  commentId: Overload:ROCrates.TestingExtraTerms.#ctor
+  name.vb: New
+  fullName: ROCrates.TestingExtraTerms.TestingExtraTerms
+  fullName.vb: ROCrates.TestingExtraTerms.New
+  nameWithType: TestingExtraTerms.TestingExtraTerms
+  nameWithType.vb: TestingExtraTerms.New
+- uid: ROCrates.TestingExtraTerms.Definition
+  name: Definition
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_Definition
+  commentId: F:ROCrates.TestingExtraTerms.Definition
+  fullName: ROCrates.TestingExtraTerms.Definition
+  nameWithType: TestingExtraTerms.Definition
+- uid: ROCrates.TestingExtraTerms.EngineVersion
+  name: EngineVersion
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_EngineVersion
+  commentId: F:ROCrates.TestingExtraTerms.EngineVersion
+  fullName: ROCrates.TestingExtraTerms.EngineVersion
+  nameWithType: TestingExtraTerms.EngineVersion
+- uid: ROCrates.TestingExtraTerms.GithubService
+  name: GithubService
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_GithubService
+  commentId: F:ROCrates.TestingExtraTerms.GithubService
+  fullName: ROCrates.TestingExtraTerms.GithubService
+  nameWithType: TestingExtraTerms.GithubService
+- uid: ROCrates.TestingExtraTerms.Instance
+  name: Instance
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_Instance
+  commentId: F:ROCrates.TestingExtraTerms.Instance
+  fullName: ROCrates.TestingExtraTerms.Instance
+  nameWithType: TestingExtraTerms.Instance
+- uid: ROCrates.TestingExtraTerms.JenkinsService
+  name: JenkinsService
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_JenkinsService
+  commentId: F:ROCrates.TestingExtraTerms.JenkinsService
+  fullName: ROCrates.TestingExtraTerms.JenkinsService
+  nameWithType: TestingExtraTerms.JenkinsService
+- uid: ROCrates.TestingExtraTerms.PlanemoEngine
+  name: PlanemoEngine
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_PlanemoEngine
+  commentId: F:ROCrates.TestingExtraTerms.PlanemoEngine
+  fullName: ROCrates.TestingExtraTerms.PlanemoEngine
+  nameWithType: TestingExtraTerms.PlanemoEngine
+- uid: ROCrates.TestingExtraTerms.Resource
+  name: Resource
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_Resource
+  commentId: F:ROCrates.TestingExtraTerms.Resource
+  fullName: ROCrates.TestingExtraTerms.Resource
+  nameWithType: TestingExtraTerms.Resource
+- uid: ROCrates.TestingExtraTerms.RunsOn
+  name: RunsOn
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_RunsOn
+  commentId: F:ROCrates.TestingExtraTerms.RunsOn
+  fullName: ROCrates.TestingExtraTerms.RunsOn
+  nameWithType: TestingExtraTerms.RunsOn
+- uid: ROCrates.TestingExtraTerms.TestDefinition
+  name: TestDefinition
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_TestDefinition
+  commentId: F:ROCrates.TestingExtraTerms.TestDefinition
+  fullName: ROCrates.TestingExtraTerms.TestDefinition
+  nameWithType: TestingExtraTerms.TestDefinition
+- uid: ROCrates.TestingExtraTerms.TestInstance
+  name: TestInstance
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_TestInstance
+  commentId: F:ROCrates.TestingExtraTerms.TestInstance
+  fullName: ROCrates.TestingExtraTerms.TestInstance
+  nameWithType: TestingExtraTerms.TestInstance
+- uid: ROCrates.TestingExtraTerms.TestService
+  name: TestService
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_TestService
+  commentId: F:ROCrates.TestingExtraTerms.TestService
+  fullName: ROCrates.TestingExtraTerms.TestService
+  nameWithType: TestingExtraTerms.TestService
+- uid: ROCrates.TestingExtraTerms.TestSuite
+  name: TestSuite
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_TestSuite
+  commentId: F:ROCrates.TestingExtraTerms.TestSuite
+  fullName: ROCrates.TestingExtraTerms.TestSuite
+  nameWithType: TestingExtraTerms.TestSuite
+- uid: ROCrates.TestingExtraTerms.TravisService
+  name: TravisService
+  href: api/ROCrates.TestingExtraTerms.html#ROCrates_TestingExtraTerms_TravisService
+  commentId: F:ROCrates.TestingExtraTerms.TravisService
+  fullName: ROCrates.TestingExtraTerms.TravisService
+  nameWithType: TestingExtraTerms.TravisService
