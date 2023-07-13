@@ -14,6 +14,7 @@
         <RepositoryUrl>https://github.com/uon-drs/ROCrates.Net.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageProjectUrl>https://uon-drs.github.io/ROCrates.Net/</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
