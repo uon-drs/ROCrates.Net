@@ -4,6 +4,7 @@ publish.zip
 dist
 dist-ssr
 *.local
+.vscode
 
 # Jetbrains IDE files
 **/.idea/workspace.xml
