@@ -8,6 +8,6 @@ Welcome to ROCrates.Net!
 This package is used to programmatically create and manipulate [RO-Crates](https://www.researchobject.org/ro-crate/). ROCrates.Net drew inspiration from the Python library [rocrate](https://pypi.org/project/rocrate/) and is being developed for use in C#/.NET projects.
 
 ## Quick Links:
-- [Installation]()
+- [Installation](articles/installation.md)
 - [Tutorials]()
-- [API Reference]()
+- [API Reference](api/index.md)

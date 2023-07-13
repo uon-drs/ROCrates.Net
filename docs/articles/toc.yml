@@ -1,2 +1,4 @@
 - name: Installation
   href: installation.md
+- name: Tutorials
+  href: tutorials/
