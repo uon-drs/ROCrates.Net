@@ -9,5 +9,5 @@ This package is used to programmatically create and manipulate [RO-Crates](https
 
 ## Quick Links:
 - [Installation](articles/installation.md)
-- [Tutorials]()
-- [API Reference](api/index.md)
+- [Tutorials](articles/tutorials/index.md)
+- [API Reference](api/ROCrates.yml)
