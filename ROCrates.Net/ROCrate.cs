@@ -7,6 +7,10 @@ using File = ROCrates.Models.File;
 
 namespace ROCrates;
 
+/// <summary>
+/// <para>A class representing an RO-Crate.</para>
+/// <para>Use this class to read and write RO-Crates.</para>
+/// </summary>
 public class ROCrate
 {
     private static string _uuid = Guid.NewGuid().ToString();
@@ -16,10 +20,25 @@ public class ROCrate
     private List<Entity> _defaultEntities = new();
     private Entity? _mainEntity = null;
 
+    /// <summary>
+    /// <para>A <see cref="Dictionary{TKey,TValue}"/> containing all the entities in the <see cref="ROCrate"/>.</para>
+    /// <para>The keys are the same as the @id tags in the ro-crate-metadata.json @graph.</para>
+    /// </summary>
     public Dictionary<string, Entity> Entities = new();
+
+    /// <summary>
+    /// A reference to the <see cref="ROCrates.Models.Metadata"/> object of the <see cref="ROCrate"/>.
+    /// </summary>
     public Metadata Metadata;
+
+    /// <summary>
+    /// A reference to the <see cref="ROCrates.Models.Preview"/> object of the <see cref="ROCrate"/>.
+    /// </summary>
     public Preview Preview;
 
+    /// <summary>
+    /// A reference to the <see cref="ROCrates.Models.RootDataset"/> object of the <see cref="ROCrate"/>.
+    /// </summary>
     public RootDataset RootDataset;
 
     /// <summary>
