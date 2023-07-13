@@ -5,10 +5,10 @@
 using ROCrates;
 
 // Create a blank `ROCrate` object
-var rocrate = new ROCrate();
+var roCrate = new ROCrate();
 
 // Initialise the `ROCrate` object
-rocrate.Initialise("MyROCrate")
+roCrate.Initialise("MyROCrate")
 ```
 
 ## Initialise a `ROCrate` from a zipped RO-Crate.
@@ -20,8 +20,8 @@ using ROCrates;
 Zipfile.ExtractToDirectory("MyROCrate.zip", "MyROCrate");
 
 // Create a blank `ROCrate` object
-var rocrate = new ROCrate();
+var roCrate = new ROCrate();
 
 // Initialise the `ROCrate` object
-rocrate.Initialise("MyROCrate")
+roCrate.Initialise("MyROCrate")
 ```

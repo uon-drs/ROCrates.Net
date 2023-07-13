@@ -15,10 +15,10 @@
 using ROCrates;
 
 // Create a blank `ROCrate` object
-var rocrate = new ROCrate();
+var roCrate = new ROCrate();
 
 // Convert the RO-Crate and add the entities to the `ROCrate` object
-rocrate.Convert("MyDirectory");
+roCrate.Convert("MyDirectory");
 ```
 
 - After:
