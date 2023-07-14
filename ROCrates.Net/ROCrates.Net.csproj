@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>ROCrates</RootNamespace>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageTags>RO-Crate RO-Crates ro-crate ro-crates rocrate rocrates ROCrates ROCrates.Net</PackageTags>
         <PackageId>ROCrates.Net</PackageId>
         <PackageVersion>0.1.0</PackageVersion>
@@ -24,6 +24,8 @@
 
     <ItemGroup>
         <None Include="Templates/*.html" CopyToOutputDirectory="PreserveNewest"/>
+        <None Include="../README.md" Pack="true" PackagePath="/"/>
+        <None Include="../LICENSE" Pack="true" PackagePath="/"/>
     </ItemGroup>
 
 </Project>
