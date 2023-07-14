@@ -21,4 +21,5 @@ jobs:
           PROJECT_FILE_PATH: ROCrates.Net/ROCrates.Net.csproj
           TAG_COMMIT: false
           NUGET_KEY: ${{secrets.NUGET_PUBLISH_KEY}}
+          VERSION_REGEX: <PackageVersion>(.*)</PackageVersion>
 
