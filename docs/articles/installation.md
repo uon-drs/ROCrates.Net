@@ -11,4 +11,4 @@ dotnet add package ROCrates.Net [--version <version>]
 ```
 
 ## See also
-The package can be viewed on [Nuget]() along with alternative installation instructions and versions.
+The package can be viewed on [Nuget](https://www.nuget.org/packages/ROCrates.Net) along with alternative installation instructions and versions.

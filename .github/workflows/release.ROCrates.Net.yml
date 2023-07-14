@@ -15,10 +15,11 @@ jobs:
         with:
           dotnet-version: '6.x'
 
-      - name: Publish NuGet
-        uses: brandedoutcast/publish-nuget@v2.5.5
-        with: 
-          PROJECT_FILE_PATH: ROCrates.Net/ROCrates.Net.csproj
-          TAG_COMMIT: false
-          NUGET_KEY: ${{secrets.NUGET_PUBLISH_KEY}}
+      - name: Pack for NuGet
+        run: dotnet pack -c Release -o .
 
+      - name: Publish to NuGet
+        run: >-
+          dotnet nuget push *.nupkg 
+          --api-key ${{secrets.NUGET_PUBLISH_KEY}}
+          --source https://api.nuget.org/v3/index.json
