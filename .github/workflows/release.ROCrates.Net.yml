@@ -1,9 +1,11 @@
 name: Release ROCrates.Net to Nuget
 
 on:
-  push:
-    branches:
-      - "main"
+  workflow_dispatch:
+    inputs:
+      version_tag:
+        description: Version tag
+        required: true
 
 jobs:
   publish:
@@ -16,6 +18,15 @@ jobs:
         uses: actions/setup-dotnet@v3.2.0
         with:
           dotnet-version: '6.x'
+
+      - name: .NET project version updater
+        uses: vers-one/dotnet-project-version-updater@v1.3
+        with:
+          file: ROCrates.Net/ROCrates.Net.csproj
+          version: ${{ github.event.inputs.version_tag }}
+
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.16.0
 
       - name: Publish NuGet
         uses: brandedoutcast/publish-nuget@v2.5.5
