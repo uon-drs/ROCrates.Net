@@ -1,0 +1,24 @@
+name: Release ROCrates.Net to Nuget
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.5.3
+
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v3.2.0
+        with:
+          dotnet-version: '6.x'
+
+      - name: Publish NuGet
+        uses: brandedoutcast/publish-nuget@v2.5.5
+        with: 
+          PROJECT_FILE_PATH: ROCrates.Net/ROCrates.Net.csproj
+          TAG_COMMIT: false
+          NUGET_KEY: ${{secrets.NUGET_PUBLISH_KEY}}
+
