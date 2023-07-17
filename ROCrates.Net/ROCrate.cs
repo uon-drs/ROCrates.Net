@@ -91,7 +91,6 @@ public class ROCrate
             if (entityType == typeof(RootDataset))
             {
                 RootDataset = entity as RootDataset;
-                Entities.Remove(entity.Id);
             }
 
             else if (entityType == typeof(Metadata))
@@ -99,7 +98,6 @@ public class ROCrate
                 Metadata = entity as Metadata;
                 _dataEntities.Remove(Metadata);
                 _dataEntities.Add(entity as Metadata);
-                Entities.Remove(entity.Id);
             }
 
             else if (entityType == typeof(Preview))
@@ -107,15 +105,17 @@ public class ROCrate
                 Preview = entity as Preview;
                 _dataEntities.Remove(Preview);
                 _dataEntities.Add(entity as Preview);
-                Entities.Remove(entity.Id);
             }
 
             else if (entityType.IsSubclassOf(typeof(DataEntity)))
             {
                 if (!Entities.ContainsKey(key)) RootDataset.AppendTo("hasPart", entity);
+                _dataEntities.Remove(entity as DataEntity);
                 _dataEntities.Add(entity as DataEntity);
             }
 
+            Entities.Remove(entity.Id);
+            entity.RoCrate = this;
             Entities.Add(key, entity);
         }
     }
