@@ -7,21 +7,6 @@ namespace ROCrates.Tests;
 public class TestRoCrate
 {
     [Fact]
-    public void ResolveId_Combines_GoodAndBad_Uris()
-    {
-        string validUrl = "https://doi.org/10.4225/59/59672c09f4a4b";
-        string invalidUrl = "https://do i.org/10.4225/59/59672c09f4a4b";
-        var crate = new ROCrate();
-
-        string resultValidUrl = crate.ResolveId(validUrl);
-        Assert.Equal(validUrl, resultValidUrl);
-
-        string resultInvalidUrl = crate.ResolveId(invalidUrl);
-        Assert.StartsWith("arcp://", resultInvalidUrl);
-        Assert.EndsWith(invalidUrl, resultInvalidUrl);
-    }
-
-    [Fact]
     public void Add_Adds_ObjetsOfDifferentTypes()
     {
         var roCrate = new ROCrate();
@@ -31,16 +16,16 @@ public class TestRoCrate
 
         roCrate.Add(person, file, dataset);
 
-        Assert.True(roCrate.Entities.ContainsKey(person.GetCanonicalId()));
-        Assert.True(roCrate.Entities.TryGetValue(person.GetCanonicalId(), out var recoveredPerson));
+        Assert.True(roCrate.Entities.ContainsKey(person.Id));
+        Assert.True(roCrate.Entities.TryGetValue(person.Id, out var recoveredPerson));
         Assert.IsType<Person>(recoveredPerson);
 
-        Assert.True(roCrate.Entities.ContainsKey(file.GetCanonicalId()));
-        Assert.True(roCrate.Entities.TryGetValue(file.GetCanonicalId(), out var recoveredFile));
+        Assert.True(roCrate.Entities.ContainsKey(file.Id));
+        Assert.True(roCrate.Entities.TryGetValue(file.Id, out var recoveredFile));
         Assert.IsType<File>(recoveredFile);
 
-        Assert.True(roCrate.Entities.ContainsKey(dataset.GetCanonicalId()));
-        Assert.True(roCrate.Entities.TryGetValue(dataset.GetCanonicalId(), out var recoveredDataset));
+        Assert.True(roCrate.Entities.ContainsKey(dataset.Id));
+        Assert.True(roCrate.Entities.TryGetValue(dataset.Id, out var recoveredDataset));
         Assert.IsType<Dataset>(recoveredDataset);
     }
 
