@@ -61,6 +61,7 @@ public class ROCrate
     /// </summary>
     /// <param name="id">The ID to be resolved.</param>
     /// <returns>The resolved URI for the given ID.</returns>
+    [Obsolete("ResolveId is deprecated")]
     public string ResolveId(string id)
     {
         if (Uri.IsWellFormedUriString(id, UriKind.RelativeOrAbsolute)) return id;
@@ -87,7 +88,7 @@ public class ROCrate
         foreach (var entity in entities)
         {
             var entityType = entity.GetType();
-            var key = entity.GetCanonicalId();
+            var key = entity.Id;
             if (entityType == typeof(RootDataset))
             {
                 RootDataset = entity as RootDataset;
