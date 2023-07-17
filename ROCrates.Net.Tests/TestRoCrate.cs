@@ -107,6 +107,33 @@ public class TestRoCrate
     }
 
     [Fact]
+    public void Save_Saves_DatasetsFirst()
+    {
+        // Arrange
+        var roCrate = new ROCrate();
+        var dirInfo = new DirectoryInfo(Guid.NewGuid().ToString());
+        dirInfo.Create();
+        var fileInfo = new FileInfo(Path.Combine(dirInfo.FullName, Guid.NewGuid().ToString()));
+        fileInfo.Create().Close();
+
+        var file = new File(crate: roCrate, source: fileInfo.FullName);
+        var dataset = new Dataset(crate: roCrate, source: dirInfo.FullName);
+
+        roCrate.Add(file, dataset);
+
+        // Act
+        roCrate.Save();
+
+        // Assert
+        Assert.True(dirInfo.Exists);
+        Assert.True(fileInfo.Exists);
+
+        // Clean up
+        if (fileInfo.Exists) fileInfo.Delete();
+        if (dirInfo.Exists) dirInfo.Delete(recursive: true);
+    }
+
+    [Fact]
     public void Initialise_Throws_WithNoMetadataJsonFile()
     {
         // Arrange
