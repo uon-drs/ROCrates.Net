@@ -37,7 +37,7 @@ public class Preview : File
     public override void Write(string basePath)
     {
         var assembly = typeof(Preview).Assembly;
-        var resource = assembly.GetManifestResourceStream("ROCrates.Templates.ro-crates-preview.html");
+        var resource = assembly.GetManifestResourceStream("ROCrates.Templates.ro-crate-preview.html");
         using var sr = new StreamReader(resource!, Encoding.UTF8);
         var template = Template.Parse(sr.ReadToEnd());
 
