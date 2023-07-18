@@ -61,6 +61,7 @@ public class ROCrate
     /// </summary>
     /// <param name="id">The ID to be resolved.</param>
     /// <returns>The resolved URI for the given ID.</returns>
+    [Obsolete("ResolveId is deprecated")]
     public string ResolveId(string id)
     {
         if (Uri.IsWellFormedUriString(id, UriKind.RelativeOrAbsolute)) return id;
@@ -87,11 +88,10 @@ public class ROCrate
         foreach (var entity in entities)
         {
             var entityType = entity.GetType();
-            var key = entity.GetCanonicalId();
+            var key = entity.Id;
             if (entityType == typeof(RootDataset))
             {
                 RootDataset = entity as RootDataset;
-                Entities.Remove(entity.Id);
             }
 
             else if (entityType == typeof(Metadata))
@@ -99,7 +99,6 @@ public class ROCrate
                 Metadata = entity as Metadata;
                 _dataEntities.Remove(Metadata);
                 _dataEntities.Add(entity as Metadata);
-                Entities.Remove(entity.Id);
             }
 
             else if (entityType == typeof(Preview))
@@ -107,15 +106,17 @@ public class ROCrate
                 Preview = entity as Preview;
                 _dataEntities.Remove(Preview);
                 _dataEntities.Add(entity as Preview);
-                Entities.Remove(entity.Id);
             }
 
             else if (entityType.IsSubclassOf(typeof(DataEntity)))
             {
                 if (!Entities.ContainsKey(key)) RootDataset.AppendTo("hasPart", entity);
+                _dataEntities.Remove(entity as DataEntity);
                 _dataEntities.Add(entity as DataEntity);
             }
 
+            Entities.Remove(entity.Id);
+            entity.RoCrate = this;
             Entities.Add(key, entity);
         }
     }
@@ -306,7 +307,8 @@ public class ROCrate
     /// </summary>
     /// <param name="location">
     /// The directory where the data entities will be written. This will become a .zip file with the name
-    /// {location}.zip if <c>zip</c> is <c>true</c>.
+    /// {location}.zip if <c>zip</c> is <c>true</c>. If <c>location</c> is <c>null</c>, the current working
+    /// directory will be used.
     /// </param>
     /// <param name="zip">
     /// If <c>true</c>, save the RO-Crate as a .zip file, else save to a directory. Default: <c>false</c>
@@ -316,7 +318,21 @@ public class ROCrate
         var saveLocation = location ?? Directory.GetCurrentDirectory();
         if (!Directory.Exists(saveLocation)) Directory.CreateDirectory(saveLocation);
 
-        foreach (var entity in _dataEntities)
+        var datasets = from dataset in _dataEntities
+            where dataset.GetType() == typeof(Dataset) || dataset.GetType().IsSubclassOf(typeof(Dataset))
+            select dataset;
+        var nonDatasets = from nonDataset in _dataEntities
+            where !(nonDataset.GetType() == typeof(Dataset) && nonDataset.GetType().IsSubclassOf(typeof(Dataset)))
+            select nonDataset;
+
+        // First save datasets as these are directories that will need to exist before saving the contained files.
+        foreach (var entity in datasets)
+        {
+            entity.Write(saveLocation);
+        }
+
+        // Now save the non-dataset Data Entities
+        foreach (var entity in nonDatasets)
         {
             entity.Write(saveLocation);
         }
