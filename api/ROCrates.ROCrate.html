@@ -833,7 +833,8 @@ It will not fetch them from remote locations.
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ResolveId(string id)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;ResolveId is deprecated&quot;)]
+public string ResolveId(string id)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -879,7 +880,8 @@ It will not fetch them from remote locations.
   <dl class="parameters">
     <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The directory where the data entities will be written. This will become a .zip file with the name
-{location}.zip if <code>zip</code> is <code>true</code>.</p>
+{location}.zip if <code>zip</code> is <code>true</code>. If <code>location</code> is <code>null</code>, the current working
+directory will be used.</p>
 </dd>
     <dt><code>zip</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd><p>If <code>true</code>, save the RO-Crate as a .zip file, else save to a directory. Default: <code>false</code></p>
