@@ -103,15 +103,6 @@ references:
   fullName.vb: ROCrates.Exceptions.CrateReadException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: CrateReadException.CrateReadException(SerializationInfo, StreamingContext)
   nameWithType.vb: CrateReadException.New(SerializationInfo, StreamingContext)
-- uid: ROCrates.Exceptions.CrateReadException.#ctor(System.String,System.Exception)
-  name: CrateReadException(string?, Exception?)
-  href: api/ROCrates.Exceptions.CrateReadException.html#ROCrates_Exceptions_CrateReadException__ctor_System_String_System_Exception_
-  commentId: M:ROCrates.Exceptions.CrateReadException.#ctor(System.String,System.Exception)
-  name.vb: New(String, Exception)
-  fullName: ROCrates.Exceptions.CrateReadException.CrateReadException(string?, System.Exception?)
-  fullName.vb: ROCrates.Exceptions.CrateReadException.New(String, System.Exception)
-  nameWithType: CrateReadException.CrateReadException(string?, Exception?)
-  nameWithType.vb: CrateReadException.New(String, Exception)
 - uid: ROCrates.Exceptions.CrateReadException.#ctor(System.String)
   name: CrateReadException(string?)
   href: api/ROCrates.Exceptions.CrateReadException.html#ROCrates_Exceptions_CrateReadException__ctor_System_String_
@@ -121,6 +112,15 @@ references:
   fullName.vb: ROCrates.Exceptions.CrateReadException.New(String)
   nameWithType: CrateReadException.CrateReadException(string?)
   nameWithType.vb: CrateReadException.New(String)
+- uid: ROCrates.Exceptions.CrateReadException.#ctor(System.String,System.Exception)
+  name: CrateReadException(string?, Exception?)
+  href: api/ROCrates.Exceptions.CrateReadException.html#ROCrates_Exceptions_CrateReadException__ctor_System_String_System_Exception_
+  commentId: M:ROCrates.Exceptions.CrateReadException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: ROCrates.Exceptions.CrateReadException.CrateReadException(string?, System.Exception?)
+  fullName.vb: ROCrates.Exceptions.CrateReadException.New(String, System.Exception)
+  nameWithType: CrateReadException.CrateReadException(string?, Exception?)
+  nameWithType.vb: CrateReadException.New(String, Exception)
 - uid: ROCrates.Exceptions.CrateReadException.#ctor*
   name: CrateReadException
   href: api/ROCrates.Exceptions.CrateReadException.html#ROCrates_Exceptions_CrateReadException__ctor_
@@ -154,15 +154,6 @@ references:
   fullName.vb: ROCrates.Exceptions.MetadataException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: MetadataException.MetadataException(SerializationInfo, StreamingContext)
   nameWithType.vb: MetadataException.New(SerializationInfo, StreamingContext)
-- uid: ROCrates.Exceptions.MetadataException.#ctor(System.String,System.Exception)
-  name: MetadataException(string?, Exception?)
-  href: api/ROCrates.Exceptions.MetadataException.html#ROCrates_Exceptions_MetadataException__ctor_System_String_System_Exception_
-  commentId: M:ROCrates.Exceptions.MetadataException.#ctor(System.String,System.Exception)
-  name.vb: New(String, Exception)
-  fullName: ROCrates.Exceptions.MetadataException.MetadataException(string?, System.Exception?)
-  fullName.vb: ROCrates.Exceptions.MetadataException.New(String, System.Exception)
-  nameWithType: MetadataException.MetadataException(string?, Exception?)
-  nameWithType.vb: MetadataException.New(String, Exception)
 - uid: ROCrates.Exceptions.MetadataException.#ctor(System.String)
   name: MetadataException(string?)
   href: api/ROCrates.Exceptions.MetadataException.html#ROCrates_Exceptions_MetadataException__ctor_System_String_
@@ -172,6 +163,15 @@ references:
   fullName.vb: ROCrates.Exceptions.MetadataException.New(String)
   nameWithType: MetadataException.MetadataException(string?)
   nameWithType.vb: MetadataException.New(String)
+- uid: ROCrates.Exceptions.MetadataException.#ctor(System.String,System.Exception)
+  name: MetadataException(string?, Exception?)
+  href: api/ROCrates.Exceptions.MetadataException.html#ROCrates_Exceptions_MetadataException__ctor_System_String_System_Exception_
+  commentId: M:ROCrates.Exceptions.MetadataException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: ROCrates.Exceptions.MetadataException.MetadataException(string?, System.Exception?)
+  fullName.vb: ROCrates.Exceptions.MetadataException.New(String, System.Exception)
+  nameWithType: MetadataException.MetadataException(string?, Exception?)
+  nameWithType.vb: MetadataException.New(String, Exception)
 - uid: ROCrates.Exceptions.MetadataException.#ctor*
   name: MetadataException
   href: api/ROCrates.Exceptions.MetadataException.html#ROCrates_Exceptions_MetadataException__ctor_
@@ -193,18 +193,6 @@ references:
   commentId: T:ROCrates.Models.ComputationalWorkflow
   fullName: ROCrates.Models.ComputationalWorkflow
   nameWithType: ComputationalWorkflow
-- uid: ROCrates.Models.ComputationalWorkflow._empty
-  name: _empty()
-  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__empty
-  commentId: M:ROCrates.Models.ComputationalWorkflow._empty
-  fullName: ROCrates.Models.ComputationalWorkflow._empty()
-  nameWithType: ComputationalWorkflow._empty()
-- uid: ROCrates.Models.ComputationalWorkflow._empty*
-  name: _empty
-  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__empty_
-  commentId: Overload:ROCrates.Models.ComputationalWorkflow._empty
-  fullName: ROCrates.Models.ComputationalWorkflow._empty
-  nameWithType: ComputationalWorkflow._empty
 - uid: ROCrates.Models.ComputationalWorkflow.#ctor
   name: ComputationalWorkflow()
   href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__ctor
@@ -259,6 +247,18 @@ references:
   commentId: Overload:ROCrates.Models.ComputationalWorkflow.Serialize
   fullName: ROCrates.Models.ComputationalWorkflow.Serialize
   nameWithType: ComputationalWorkflow.Serialize
+- uid: ROCrates.Models.ComputationalWorkflow._empty
+  name: _empty()
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__empty
+  commentId: M:ROCrates.Models.ComputationalWorkflow._empty
+  fullName: ROCrates.Models.ComputationalWorkflow._empty()
+  nameWithType: ComputationalWorkflow._empty()
+- uid: ROCrates.Models.ComputationalWorkflow._empty*
+  name: _empty
+  href: api/ROCrates.Models.ComputationalWorkflow.html#ROCrates_Models_ComputationalWorkflow__empty_
+  commentId: Overload:ROCrates.Models.ComputationalWorkflow._empty
+  fullName: ROCrates.Models.ComputationalWorkflow._empty
+  nameWithType: ComputationalWorkflow._empty
 - uid: ROCrates.Models.ComputerLanguage
   name: ComputerLanguage
   href: api/ROCrates.Models.ComputerLanguage.html
@@ -580,18 +580,6 @@ references:
   commentId: T:ROCrates.Models.Dataset
   fullName: ROCrates.Models.Dataset
   nameWithType: Dataset
-- uid: ROCrates.Models.Dataset._empty
-  name: _empty()
-  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__empty
-  commentId: M:ROCrates.Models.Dataset._empty
-  fullName: ROCrates.Models.Dataset._empty()
-  nameWithType: Dataset._empty()
-- uid: ROCrates.Models.Dataset._empty*
-  name: _empty
-  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__empty_
-  commentId: Overload:ROCrates.Models.Dataset._empty
-  fullName: ROCrates.Models.Dataset._empty
-  nameWithType: Dataset._empty
 - uid: ROCrates.Models.Dataset.#ctor
   name: Dataset()
   href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__ctor
@@ -661,6 +649,18 @@ references:
   commentId: Overload:ROCrates.Models.Dataset.Write
   fullName: ROCrates.Models.Dataset.Write
   nameWithType: Dataset.Write
+- uid: ROCrates.Models.Dataset._empty
+  name: _empty()
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__empty
+  commentId: M:ROCrates.Models.Dataset._empty
+  fullName: ROCrates.Models.Dataset._empty()
+  nameWithType: Dataset._empty()
+- uid: ROCrates.Models.Dataset._empty*
+  name: _empty
+  href: api/ROCrates.Models.Dataset.html#ROCrates_Models_Dataset__empty_
+  commentId: Overload:ROCrates.Models.Dataset._empty
+  fullName: ROCrates.Models.Dataset._empty
+  nameWithType: Dataset._empty
 - uid: ROCrates.Models.Entity
   name: Entity
   href: api/ROCrates.Models.Entity.html
@@ -910,30 +910,6 @@ references:
   commentId: T:ROCrates.Models.FileOrDir
   fullName: ROCrates.Models.FileOrDir
   nameWithType: FileOrDir
-- uid: ROCrates.Models.FileOrDir._destPath
-  name: _destPath
-  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__destPath
-  commentId: F:ROCrates.Models.FileOrDir._destPath
-  fullName: ROCrates.Models.FileOrDir._destPath
-  nameWithType: FileOrDir._destPath
-- uid: ROCrates.Models.FileOrDir._fetchRemote
-  name: _fetchRemote
-  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__fetchRemote
-  commentId: F:ROCrates.Models.FileOrDir._fetchRemote
-  fullName: ROCrates.Models.FileOrDir._fetchRemote
-  nameWithType: FileOrDir._fetchRemote
-- uid: ROCrates.Models.FileOrDir._source
-  name: _source
-  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__source
-  commentId: F:ROCrates.Models.FileOrDir._source
-  fullName: ROCrates.Models.FileOrDir._source
-  nameWithType: FileOrDir._source
-- uid: ROCrates.Models.FileOrDir._validateUrl
-  name: _validateUrl
-  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__validateUrl
-  commentId: F:ROCrates.Models.FileOrDir._validateUrl
-  fullName: ROCrates.Models.FileOrDir._validateUrl
-  nameWithType: FileOrDir._validateUrl
 - uid: ROCrates.Models.FileOrDir.#ctor
   name: FileOrDir()
   href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__ctor
@@ -988,6 +964,30 @@ references:
   commentId: Overload:ROCrates.Models.FileOrDir.Serialize
   fullName: ROCrates.Models.FileOrDir.Serialize
   nameWithType: FileOrDir.Serialize
+- uid: ROCrates.Models.FileOrDir._destPath
+  name: _destPath
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__destPath
+  commentId: F:ROCrates.Models.FileOrDir._destPath
+  fullName: ROCrates.Models.FileOrDir._destPath
+  nameWithType: FileOrDir._destPath
+- uid: ROCrates.Models.FileOrDir._fetchRemote
+  name: _fetchRemote
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__fetchRemote
+  commentId: F:ROCrates.Models.FileOrDir._fetchRemote
+  fullName: ROCrates.Models.FileOrDir._fetchRemote
+  nameWithType: FileOrDir._fetchRemote
+- uid: ROCrates.Models.FileOrDir._source
+  name: _source
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__source
+  commentId: F:ROCrates.Models.FileOrDir._source
+  fullName: ROCrates.Models.FileOrDir._source
+  nameWithType: FileOrDir._source
+- uid: ROCrates.Models.FileOrDir._validateUrl
+  name: _validateUrl
+  href: api/ROCrates.Models.FileOrDir.html#ROCrates_Models_FileOrDir__validateUrl
+  commentId: F:ROCrates.Models.FileOrDir._validateUrl
+  fullName: ROCrates.Models.FileOrDir._validateUrl
+  nameWithType: FileOrDir._validateUrl
 - uid: ROCrates.Models.Metadata
   name: Metadata
   href: api/ROCrates.Models.Metadata.html
@@ -1201,18 +1201,6 @@ references:
   commentId: T:ROCrates.Models.Preview
   fullName: ROCrates.Models.Preview
   nameWithType: Preview
-- uid: ROCrates.Models.Preview._empty
-  name: _empty()
-  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__empty
-  commentId: M:ROCrates.Models.Preview._empty
-  fullName: ROCrates.Models.Preview._empty()
-  nameWithType: Preview._empty()
-- uid: ROCrates.Models.Preview._empty*
-  name: _empty
-  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__empty_
-  commentId: Overload:ROCrates.Models.Preview._empty
-  fullName: ROCrates.Models.Preview._empty
-  nameWithType: Preview._empty
 - uid: ROCrates.Models.Preview.#ctor
   name: Preview()
   href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__ctor
@@ -1288,6 +1276,18 @@ references:
   commentId: Overload:ROCrates.Models.Preview.Write
   fullName: ROCrates.Models.Preview.Write
   nameWithType: Preview.Write
+- uid: ROCrates.Models.Preview._empty
+  name: _empty()
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__empty
+  commentId: M:ROCrates.Models.Preview._empty
+  fullName: ROCrates.Models.Preview._empty()
+  nameWithType: Preview._empty()
+- uid: ROCrates.Models.Preview._empty*
+  name: _empty
+  href: api/ROCrates.Models.Preview.html#ROCrates_Models_Preview__empty_
+  commentId: Overload:ROCrates.Models.Preview._empty
+  fullName: ROCrates.Models.Preview._empty
+  nameWithType: Preview._empty
 - uid: ROCrates.Models.RootDataset
   name: RootDataset
   href: api/ROCrates.Models.RootDataset.html
