@@ -68,7 +68,6 @@ public class Dataset : FileOrDir
         }
         else
         {
-            if (!Directory.Exists(_source)) throw new DirectoryNotFoundException($"{_source} does not exist.");
             Directory.CreateDirectory(outPath);
         }
     }
