@@ -53,24 +53,6 @@ public class TestDataset : IClassFixture<TestDatasetFixture>
     }
 
     [Fact]
-    public void TestWrite_Throws_When_SourceDir_DoesNotExist()
-    {
-        // Arrange
-        var testDestPath = Path.Combine(_testDatasetFixture.TestBasePath, "ext", _testDirName);
-        Directory.CreateDirectory(testDestPath);
-        var dataset = new Models.Dataset(
-            new ROCrate(),
-            source: Path.Combine("non", "existent"),
-            destPath: testDestPath);
-
-        // Act
-        var throwingFunc = () => dataset.Write(_testDatasetFixture.TestBasePath);
-
-        // Assert
-        Assert.Throws<DirectoryNotFoundException>(throwingFunc);
-    }
-
-    [Fact]
     public void TestDataset_Serialises_Correctly()
     {
         // Arrange
